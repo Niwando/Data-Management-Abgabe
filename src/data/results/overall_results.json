@@ -1,0 +1,3016 @@
+{
+    "meta results": {
+        "total_tracks": 50,
+        "average_correctness": 0.84,
+        "average_groundedness": 0.7641750841750844,
+        "average_relevance_score": 0.98,
+        "average_context_relevance_score": 1.0,
+        "average_cosine_similarity": 0.9649113386480447,
+        "average_euclidean_distance": 0.5320079553478572,
+        "average_manhattan_distance": 1.287844220558992,
+        "average_mahalanobis_distance": 3.0675327859148043,
+        "average_pearson_correlation": 0.901940306988528
+    },
+    "results": {
+        "0vfB1HhL36tfV8q6LLKtgo": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context consists of information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of songs similar to the request. This information can help determine if the song aligns with your preferences based on these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "4avTQmRrg717z7AuXqYY0V",
+                    "cosine similarity": 0.9756233147109862,
+                    "euclidean distance": 0.49959589326384896,
+                    "manhattan distance": 1.2467829891938371,
+                    "mahalanobis distance": 2.5266585133506045,
+                    "pearson correlation": 0.925214794745069
+                },
+                "2": {
+                    "id": "5fEJDiHWMECUifmNipjvqO",
+                    "cosine similarity": 0.9752642978260117,
+                    "euclidean distance": 0.48060489160459113,
+                    "manhattan distance": 1.107007345193837,
+                    "mahalanobis distance": 2.2395551058492127,
+                    "pearson correlation": 0.9249665236571043
+                },
+                "3": {
+                    "id": "3F1vWVOvzgKx7r5ZRp19gu",
+                    "cosine similarity": 0.9676124018840411,
+                    "euclidean distance": 0.504770811836927,
+                    "manhattan distance": 1.247431859785271,
+                    "mahalanobis distance": 2.8372683083373422,
+                    "pearson correlation": 0.9079382326483302
+                },
+                "4": {
+                    "id": "5hlashYN7IwHpQ4PLtQNf4",
+                    "cosine similarity": 0.9671949521505914,
+                    "euclidean distance": 0.5659075437259778,
+                    "manhattan distance": 1.4913365580553548,
+                    "mahalanobis distance": 2.9642574231856407,
+                    "pearson correlation": 0.8972274617969966
+                },
+                "5": {
+                    "id": "66ks5ll4gswiaE7lfb2QMz",
+                    "cosine similarity": 0.9651784059310256,
+                    "euclidean distance": 0.5531795445079344,
+                    "manhattan distance": 1.16974418764587,
+                    "mahalanobis distance": 3.0594076495371594,
+                    "pearson correlation": 0.8916556885296247
+                }
+            }
+        },
+        "3FVdWR0C2QAqXxhW1al2fT": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.9166666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs that are most similar to the requested song. This information directly relates to the user's potential preference for the song based on its musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3eWHY75nDgte70hh5yf4UW",
+                    "cosine similarity": 0.9964642517645407,
+                    "euclidean distance": 0.19562247346254352,
+                    "manhattan distance": 0.5676198690844406,
+                    "mahalanobis distance": 1.333302220386113,
+                    "pearson correlation": 0.9887367700030656
+                },
+                "2": {
+                    "id": "5VyfAfp2Yt3qaeuvq55ll3",
+                    "cosine similarity": 0.9964124095190385,
+                    "euclidean distance": 0.21273398573854493,
+                    "manhattan distance": 0.5744925222576094,
+                    "mahalanobis distance": 1.1522956133380287,
+                    "pearson correlation": 0.9868000418859079
+                },
+                "3": {
+                    "id": "216QmkNpU3hIjeZtGocb9B",
+                    "cosine similarity": 0.9949791059900644,
+                    "euclidean distance": 0.23811238061437384,
+                    "manhattan distance": 0.6092729080057483,
+                    "mahalanobis distance": 1.603933016171745,
+                    "pearson correlation": 0.9819428496973861
+                },
+                "4": {
+                    "id": "4uq48sO2YTTJ0l74R9tOdo",
+                    "cosine similarity": 0.9910485079197012,
+                    "euclidean distance": 0.327855168215428,
+                    "manhattan distance": 0.9020192077713878,
+                    "mahalanobis distance": 2.3195992527263174,
+                    "pearson correlation": 0.9743791062542907
+                },
+                "5": {
+                    "id": "3zCWbPJVp1egCgyoMYAsDN",
+                    "cosine similarity": 0.9889806812014517,
+                    "euclidean distance": 0.3698191528445363,
+                    "manhattan distance": 1.0213106512784758,
+                    "mahalanobis distance": 2.270098987717421,
+                    "pearson correlation": 0.9597477307951279
+                }
+            }
+        },
+        "43kQu3PTBhCZCNhzaufAaX": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.5833333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about the five most similar songs to the user's request, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information directly relates to the user's question about whether they would like the song based on its musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6mKLhdZIMaHpZ9kbmq9SOS",
+                    "cosine similarity": 0.9795954845710888,
+                    "euclidean distance": 0.479581589807782,
+                    "manhattan distance": 1.0972276872980609,
+                    "mahalanobis distance": 2.5135238907812427,
+                    "pearson correlation": 0.9074045620744615
+                },
+                "2": {
+                    "id": "216QmkNpU3hIjeZtGocb9B",
+                    "cosine similarity": 0.977624744206514,
+                    "euclidean distance": 0.5022328894403012,
+                    "manhattan distance": 1.19153931700938,
+                    "mahalanobis distance": 2.6939717346551078,
+                    "pearson correlation": 0.9081498770787744
+                },
+                "3": {
+                    "id": "0jU7JpfPrm7jjaLjFLXZLh",
+                    "cosine similarity": 0.975974611653458,
+                    "euclidean distance": 0.5194578014826285,
+                    "manhattan distance": 1.4547204803713534,
+                    "mahalanobis distance": 3.1766500239689353,
+                    "pearson correlation": 0.9203780156421834
+                },
+                "4": {
+                    "id": "5wXJNvoVOZBmB9b4EDP8xW",
+                    "cosine similarity": 0.9715680536474767,
+                    "euclidean distance": 0.5680448338850078,
+                    "manhattan distance": 1.560893317419696,
+                    "mahalanobis distance": 3.0910770821959304,
+                    "pearson correlation": 0.8952408857571535
+                },
+                "5": {
+                    "id": "3Sd7FiZtfsVHKEvjshCsHC",
+                    "cosine similarity": 0.9697990779096053,
+                    "euclidean distance": 0.595143880215189,
+                    "manhattan distance": 1.589895994615167,
+                    "mahalanobis distance": 3.488226824884142,
+                    "pearson correlation": 0.8740108361484811
+                }
+            }
+        },
+        "1rssdvnvf0DZ4s2jdB3DCT": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is relevant to the entire prompt as it directly answers whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs that are similar to the request. This information can help in determining whether you would like the song based on its musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "481uvgYccF51OUrEzIbop2",
+                    "cosine similarity": 0.9727632819151106,
+                    "euclidean distance": 0.47054944414454764,
+                    "manhattan distance": 1.279458479336238,
+                    "mahalanobis distance": 4.3285440194158085,
+                    "pearson correlation": 0.9419763239125499
+                },
+                "2": {
+                    "id": "3ZkkwW0R78PahonxsdNZ4U",
+                    "cosine similarity": 0.9665835747331555,
+                    "euclidean distance": 0.5117661987577415,
+                    "manhattan distance": 1.3705067045676138,
+                    "mahalanobis distance": 3.9323512442894333,
+                    "pearson correlation": 0.9195122153493178
+                },
+                "3": {
+                    "id": "0V5c3isfSfyl7zQDtV9fAp",
+                    "cosine similarity": 0.9654444643612777,
+                    "euclidean distance": 0.5342954107945891,
+                    "manhattan distance": 1.5253335145837204,
+                    "mahalanobis distance": 4.039467718712122,
+                    "pearson correlation": 0.9119594077348372
+                },
+                "4": {
+                    "id": "6hzi3AGB39FjxFqcjgbWs7",
+                    "cosine similarity": 0.9653455958198517,
+                    "euclidean distance": 0.5331537298039775,
+                    "manhattan distance": 1.478317391400763,
+                    "mahalanobis distance": 3.8146903484577948,
+                    "pearson correlation": 0.9126833480145679
+                },
+                "5": {
+                    "id": "4GCIYE1x1TWJCChPkpy9by",
+                    "cosine similarity": 0.9646085744805686,
+                    "euclidean distance": 0.5263062684588501,
+                    "manhattan distance": 1.3491245779844871,
+                    "mahalanobis distance": 3.2072015516737795,
+                    "pearson correlation": 0.9089335303927832
+                }
+            }
+        },
+        "3QPPP2YozZ5xmMmpDB3c9n": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.5,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should be relevant to the entire prompt and provide a clear evaluation of whether the user would like the song based on the given features.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating the user's preference for the song based on the provided features. The evaluation is solely based on the characteristics of the song and aligns with the request for a simple \"like\" or \"dislike\" response.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of similar songs to the one in question. This information can help you determine if the song aligns with your preferences based on these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "1mlLOJXeUrwviYpUHYeZE8",
+                    "cosine similarity": 0.9499696940303937,
+                    "euclidean distance": 0.599043074199533,
+                    "manhattan distance": 1.2218358992066025,
+                    "mahalanobis distance": 5.715408817274539,
+                    "pearson correlation": 0.9005301206019289
+                },
+                "2": {
+                    "id": "5xm20JNLHy9vUVrnmZS6Uj",
+                    "cosine similarity": 0.8761406720632907,
+                    "euclidean distance": 0.9270711960770556,
+                    "manhattan distance": 2.476732409606264,
+                    "mahalanobis distance": 5.993902797173179,
+                    "pearson correlation": 0.7078532739514709
+                },
+                "3": {
+                    "id": "4XJXYvjW0CB2MLMk8l7Vdi",
+                    "cosine similarity": 0.8556797989841024,
+                    "euclidean distance": 1.128019467812115,
+                    "manhattan distance": 2.5903476474538762,
+                    "mahalanobis distance": 4.614736829745528,
+                    "pearson correlation": 0.6398265392570676
+                },
+                "4": {
+                    "id": "7N2tmiKcG2bUgZkuRKXor4",
+                    "cosine similarity": 0.8478173268107588,
+                    "euclidean distance": 1.1613792618687961,
+                    "manhattan distance": 2.516962965732273,
+                    "mahalanobis distance": 4.285580265399621,
+                    "pearson correlation": 0.6272593829671124
+                },
+                "5": {
+                    "id": "1seJCRhM5PqQ5xGebh0iQ0",
+                    "cosine similarity": 0.8419709158020493,
+                    "euclidean distance": 1.062615058337071,
+                    "manhattan distance": 2.5935013119496633,
+                    "mahalanobis distance": 5.768693176225957,
+                    "pearson correlation": 0.6438199689806247
+                }
+            }
+        },
+        "3U8Fx7zNTQrctytkj6Gqgd": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.5833333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" is directly answering the prompt by indicating whether you would like the song based on the provided features. It does not provide any additional information beyond the requested label.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of several songs similar to the requested one. This information can help in determining whether the user would like the song based on their preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6mfmrVSe5Cm7cvsNwW6uJk",
+                    "cosine similarity": 0.9722482353736753,
+                    "euclidean distance": 0.5175648144170524,
+                    "manhattan distance": 1.228432116164356,
+                    "mahalanobis distance": 3.9808708807382587,
+                    "pearson correlation": 0.945787244507861
+                },
+                "2": {
+                    "id": "6YDgMoJ8ssOuKjQ6jiz4Kk",
+                    "cosine similarity": 0.971495326297455,
+                    "euclidean distance": 0.471434109639507,
+                    "manhattan distance": 1.137884570578517,
+                    "mahalanobis distance": 3.1534891783709784,
+                    "pearson correlation": 0.944039926184353
+                },
+                "3": {
+                    "id": "7KrdT8Zk0WGeyNtaCwQR08",
+                    "cosine similarity": 0.9683657445678139,
+                    "euclidean distance": 0.5128085873800625,
+                    "manhattan distance": 1.2892948713974288,
+                    "mahalanobis distance": 2.884458388137437,
+                    "pearson correlation": 0.9549569223390352
+                },
+                "4": {
+                    "id": "1eqyKmkcp7b2s1PU9fEZRS",
+                    "cosine similarity": 0.9680183555555196,
+                    "euclidean distance": 0.5169101340011499,
+                    "manhattan distance": 1.4088528694336588,
+                    "mahalanobis distance": 4.5042560762335775,
+                    "pearson correlation": 0.9384734443773053
+                },
+                "5": {
+                    "id": "1GBUqmdRjScFoG0cs8jEGZ",
+                    "cosine similarity": 0.9579650445390355,
+                    "euclidean distance": 0.5765281680848003,
+                    "manhattan distance": 0.9987970979710071,
+                    "mahalanobis distance": 2.9766279506838536,
+                    "pearson correlation": 0.9190492620331023
+                }
+            }
+        },
+        "2ODYKhD4xlPViKP4LrNAwD": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question of evaluating whether the user would like a specific song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song, including their attributes such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information can help the user determine if they would like the song based on their preferences for these attributes.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6mkAhxAj1y5zvXWefkd9y7",
+                    "cosine similarity": 0.9935408216607878,
+                    "euclidean distance": 0.22882360544801575,
+                    "manhattan distance": 0.5755475533958607,
+                    "mahalanobis distance": 2.019058599217005,
+                    "pearson correlation": 0.9842881171372833
+                },
+                "2": {
+                    "id": "45oFq8ZKV9KDhzYb2Rh1y4",
+                    "cosine similarity": 0.9835950516991923,
+                    "euclidean distance": 0.3728074617570779,
+                    "manhattan distance": 0.958903638922359,
+                    "mahalanobis distance": 2.0976640505790543,
+                    "pearson correlation": 0.9608489843968319
+                },
+                "3": {
+                    "id": "4QMaRC93F0aFx3S648CLyh",
+                    "cosine similarity": 0.9788581248893287,
+                    "euclidean distance": 0.41424255209115957,
+                    "manhattan distance": 0.859828427133887,
+                    "mahalanobis distance": 1.8969968730648539,
+                    "pearson correlation": 0.9473534273379371
+                },
+                "4": {
+                    "id": "7e176FKv7cq6SG9EXYMLoQ",
+                    "cosine similarity": 0.9745913690234881,
+                    "euclidean distance": 0.4742109372110851,
+                    "manhattan distance": 1.1348427752813863,
+                    "mahalanobis distance": 1.8173055551507526,
+                    "pearson correlation": 0.9377940942499484
+                },
+                "5": {
+                    "id": "4JsQkSOE4taeyhH3pv1een",
+                    "cosine similarity": 0.9722071977951182,
+                    "euclidean distance": 0.4698941337265972,
+                    "manhattan distance": 1.119075559292388,
+                    "mahalanobis distance": 2.6253464500013513,
+                    "pearson correlation": 0.930418286406194
+                }
+            }
+        },
+        "6u1rhQAvxkWLeuqUC3iJD0": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.5833333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The evaluation is based on the relevance of the provided context to determine whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. The context includes the names of the songs, their musical features, and whether they are liked or not. This information can help the user determine if they would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "5fEJDiHWMECUifmNipjvqO",
+                    "cosine similarity": 0.9869248276650464,
+                    "euclidean distance": 0.34499797790702,
+                    "manhattan distance": 0.9635368999629659,
+                    "mahalanobis distance": 1.5950698352909407,
+                    "pearson correlation": 0.9637134675313073
+                },
+                "2": {
+                    "id": "3yFf0EtFwkiVSbf8CK4CB3",
+                    "cosine similarity": 0.9865905795330928,
+                    "euclidean distance": 0.3692652351285751,
+                    "manhattan distance": 0.7355067601591302,
+                    "mahalanobis distance": 1.7394398180609325,
+                    "pearson correlation": 0.9664940069982358
+                },
+                "3": {
+                    "id": "6KigD0mlF4VGDYiSEzAyYw",
+                    "cosine similarity": 0.9824168805479082,
+                    "euclidean distance": 0.42139416230747717,
+                    "manhattan distance": 0.9313856821957336,
+                    "mahalanobis distance": 2.546442216776753,
+                    "pearson correlation": 0.9505538247560142
+                },
+                "4": {
+                    "id": "6tQB8rJfdvILrxIxuKIRMu",
+                    "cosine similarity": 0.9821519508354952,
+                    "euclidean distance": 0.4032238932003388,
+                    "manhattan distance": 1.0654008084675763,
+                    "mahalanobis distance": 2.8375651747210133,
+                    "pearson correlation": 0.9513451669780149
+                },
+                "5": {
+                    "id": "3yDhZq8f17SmumVmEyCaRN",
+                    "cosine similarity": 0.9810392256825111,
+                    "euclidean distance": 0.4171138511327145,
+                    "manhattan distance": 1.026704351753894,
+                    "mahalanobis distance": 2.3333249732083527,
+                    "pearson correlation": 0.9481371359841667
+                }
+            }
+        },
+        "3SnGymj6ijE2iuUfWxLo1q": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and provide a clear 'like' or 'dislike' label.\nSupporting Evidence: The response 'like' indicates that the user would enjoy the song based on the features provided in the table, such as danceability, energy, loudness, valence, and tempo.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and valence. The context also includes a label indicating whether the songs are liked or disliked.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3iZOVTPjyUEq9f5HsUQCj7",
+                    "cosine similarity": 0.9720120018954141,
+                    "euclidean distance": 0.5199062589914483,
+                    "manhattan distance": 1.4594534527108758,
+                    "mahalanobis distance": 3.127189216021384,
+                    "pearson correlation": 0.9157445225748629
+                },
+                "2": {
+                    "id": "4dwrL3Z5U2RZ6MZiKE2PgL",
+                    "cosine similarity": 0.9629659582608782,
+                    "euclidean distance": 0.5971791737268789,
+                    "manhattan distance": 1.518282164616722,
+                    "mahalanobis distance": 3.731344147557271,
+                    "pearson correlation": 0.8973300343696436
+                },
+                "3": {
+                    "id": "0mLAgHQP1BOkoHhDu622BQ",
+                    "cosine similarity": 0.9620482371375476,
+                    "euclidean distance": 0.6289399691994828,
+                    "manhattan distance": 1.598685687263845,
+                    "mahalanobis distance": 3.0544814392667665,
+                    "pearson correlation": 0.8830234102579987
+                },
+                "4": {
+                    "id": "3yDhZq8f17SmumVmEyCaRN",
+                    "cosine similarity": 0.9601024044490369,
+                    "euclidean distance": 0.617448136070483,
+                    "manhattan distance": 1.6773080248185261,
+                    "mahalanobis distance": 2.708846096771998,
+                    "pearson correlation": 0.9008565928436577
+                },
+                "5": {
+                    "id": "5gqh2FMBquUEwDsRUU4pCF",
+                    "cosine similarity": 0.9599940826381211,
+                    "euclidean distance": 0.6398751028361528,
+                    "manhattan distance": 1.7214670860178543,
+                    "mahalanobis distance": 3.4473755274135836,
+                    "pearson correlation": 0.8689688499310795
+                }
+            }
+        },
+        "3SP4UoCeEfG8OUevkxbPlX": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating your preference for the song based on its musical features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about five songs that are similar to the request in terms of various musical features such as danceability, energy, key, loudness, and more. The context also includes a label indicating whether the songs are liked or disliked. This information can help evaluate whether you would like the song based on your preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "5ycOd8aYjGCIrDfLNKqmKW",
+                    "cosine similarity": 0.9765202054592171,
+                    "euclidean distance": 0.45488378844631094,
+                    "manhattan distance": 1.2754347766128544,
+                    "mahalanobis distance": 3.3258707900579605,
+                    "pearson correlation": 0.9346496658232648
+                },
+                "2": {
+                    "id": "107S1KOprUaRQqfI9nugxv",
+                    "cosine similarity": 0.9746959899108923,
+                    "euclidean distance": 0.4826658090755463,
+                    "manhattan distance": 1.1702402680402577,
+                    "mahalanobis distance": 2.918290488712374,
+                    "pearson correlation": 0.9339496449210088
+                },
+                "3": {
+                    "id": "6gP7mrmL9EsFS3sMpk3Ig3",
+                    "cosine similarity": 0.9622067126938556,
+                    "euclidean distance": 0.575538163022945,
+                    "manhattan distance": 1.442847860620116,
+                    "mahalanobis distance": 4.057577239956739,
+                    "pearson correlation": 0.8952166776543445
+                },
+                "4": {
+                    "id": "6m5EVmAlKhJwbQCT3xN5Kt",
+                    "cosine similarity": 0.9376235809130096,
+                    "euclidean distance": 0.7387075224734374,
+                    "manhattan distance": 1.9125297003489408,
+                    "mahalanobis distance": 4.25005474550727,
+                    "pearson correlation": 0.831119939341205
+                },
+                "5": {
+                    "id": "42es8ZJzFiOvjLR1yv0Sn7",
+                    "cosine similarity": 0.9339511265457795,
+                    "euclidean distance": 0.7661492575098487,
+                    "manhattan distance": 1.8958132101062688,
+                    "mahalanobis distance": 4.77177678911683,
+                    "pearson correlation": 0.8205532181429208
+                }
+            }
+        },
+        "2MCAs3ttHSuDm1RHL0rqTF": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" directly answers the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The context provided includes information about songs similar to the request, including their attributes and whether they are liked or disliked.\nSupporting Evidence: The context lists five songs similar to the request, detailing their attributes such as danceability, energy, key, loudness, and more. It also includes whether each song is liked or disliked.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3DWDcsDoXRIFynCREIkibM",
+                    "cosine similarity": 0.9773852111911894,
+                    "euclidean distance": 0.43986922306684983,
+                    "manhattan distance": 1.0831420280972284,
+                    "mahalanobis distance": 2.6549358460722905,
+                    "pearson correlation": 0.935863816583659
+                },
+                "2": {
+                    "id": "7e176FKv7cq6SG9EXYMLoQ",
+                    "cosine similarity": 0.9727303729778035,
+                    "euclidean distance": 0.4771727405556938,
+                    "manhattan distance": 1.1471729671559199,
+                    "mahalanobis distance": 2.4351021452037687,
+                    "pearson correlation": 0.9190242041324422
+                },
+                "3": {
+                    "id": "1NW4kNeeaRl5xxOnOLsYIJ",
+                    "cosine similarity": 0.9718875542440117,
+                    "euclidean distance": 0.47505740401278157,
+                    "manhattan distance": 1.1730840601949208,
+                    "mahalanobis distance": 2.431430442003555,
+                    "pearson correlation": 0.9099546411365219
+                },
+                "4": {
+                    "id": "2fl01uGwbppFEci7qij1lU",
+                    "cosine similarity": 0.971420423070133,
+                    "euclidean distance": 0.480384843948399,
+                    "manhattan distance": 1.024143088714233,
+                    "mahalanobis distance": 2.2790702500124924,
+                    "pearson correlation": 0.9087641170068019
+                },
+                "5": {
+                    "id": "6mkAhxAj1y5zvXWefkd9y7",
+                    "cosine similarity": 0.9697716710936991,
+                    "euclidean distance": 0.4857787758026014,
+                    "manhattan distance": 1.019690671573153,
+                    "mahalanobis distance": 2.3221450569143522,
+                    "pearson correlation": 0.9208260021152529
+                }
+            }
+        },
+        "5nNmj1cLH3r4aA4XDJ2bgY": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context in determining whether the user would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the song \"Bandana mauve\" compared to other similar songs. It also includes a label indicating whether the song is liked or disliked based on these features. This information allows for a comparison between the user's preferences and the song's characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6VuIKS2Z27jCutIapgCUZF",
+                    "cosine similarity": 0.9940299348394019,
+                    "euclidean distance": 0.2648618797173057,
+                    "manhattan distance": 0.6952031752650447,
+                    "mahalanobis distance": 2.3203611639998494,
+                    "pearson correlation": 0.9844830794374828
+                },
+                "2": {
+                    "id": "4dwrL3Z5U2RZ6MZiKE2PgL",
+                    "cosine similarity": 0.9880075891184925,
+                    "euclidean distance": 0.3911881959189887,
+                    "manhattan distance": 1.0376756944293752,
+                    "mahalanobis distance": 2.3100786547935797,
+                    "pearson correlation": 0.9665649512937438
+                },
+                "3": {
+                    "id": "5uuJruktM9fMdN9Va0DUMl",
+                    "cosine similarity": 0.9872325940774956,
+                    "euclidean distance": 0.3773933563801791,
+                    "manhattan distance": 1.0500246667464344,
+                    "mahalanobis distance": 2.4245696756704107,
+                    "pearson correlation": 0.9604622323810097
+                },
+                "4": {
+                    "id": "3eWHY75nDgte70hh5yf4UW",
+                    "cosine similarity": 0.985844683998519,
+                    "euclidean distance": 0.39642540246264224,
+                    "manhattan distance": 1.1286653046205801,
+                    "mahalanobis distance": 2.484056388324101,
+                    "pearson correlation": 0.9527881890027865
+                },
+                "5": {
+                    "id": "6Lphpr9Z6H282Sguw0dUWa",
+                    "cosine similarity": 0.9855501214097842,
+                    "euclidean distance": 0.41970423103175053,
+                    "manhattan distance": 1.1120919956227298,
+                    "mahalanobis distance": 2.4112968660970875,
+                    "pearson correlation": 0.9519361923775971
+                }
+            }
+        },
+        "6Fn1k9ctMXsh5xrrMRaGQZ": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.5833333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is relevant to the entire prompt as it directly answers whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are most similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. This information can help the user determine if they would like the song based on their preferences for these musical attributes.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "2fl01uGwbppFEci7qij1lU",
+                    "cosine similarity": 0.9912086257501205,
+                    "euclidean distance": 0.2811245564097623,
+                    "manhattan distance": 0.6157346489780388,
+                    "mahalanobis distance": 1.570319964356644,
+                    "pearson correlation": 0.9699950195540027
+                },
+                "2": {
+                    "id": "35tyQCmxn6cj2r7eAb4JXP",
+                    "cosine similarity": 0.9909713057768573,
+                    "euclidean distance": 0.28759200645304556,
+                    "manhattan distance": 0.7405534687121069,
+                    "mahalanobis distance": 1.6009093507667924,
+                    "pearson correlation": 0.9677318984862027
+                },
+                "3": {
+                    "id": "4VdQCcXDuzb6Ks1yLT9FnO",
+                    "cosine similarity": 0.9843390964270006,
+                    "euclidean distance": 0.37259606742061,
+                    "manhattan distance": 0.9397714481386501,
+                    "mahalanobis distance": 1.9532956131402768,
+                    "pearson correlation": 0.9474132697855685
+                },
+                "4": {
+                    "id": "7Khbx8MgVTwIJe8YBi8tci",
+                    "cosine similarity": 0.9769078827145168,
+                    "euclidean distance": 0.4550534714946622,
+                    "manhattan distance": 1.2383457502227644,
+                    "mahalanobis distance": 2.24467303225571,
+                    "pearson correlation": 0.9164698767485133
+                },
+                "5": {
+                    "id": "1NW4kNeeaRl5xxOnOLsYIJ",
+                    "cosine similarity": 0.9701814982687849,
+                    "euclidean distance": 0.5069516615072615,
+                    "manhattan distance": 0.920410016611364,
+                    "mahalanobis distance": 2.8008080274435736,
+                    "pearson correlation": 0.8949831341643186
+                }
+            }
+        },
+        "42es8ZJzFiOvjLR1yv0Sn7": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should be relevant to the entire prompt and provide a clear evaluation of whether the user would like the song based on the given features.\nSupporting Evidence: The user asked for an evaluation of whether they would like the song based on specific features such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, and time_signature. The response \"dislike\" indicates a negative sentiment towards the song based on these features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. Each song is labeled as \"dislike.\" This information can help the user determine if they would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "27zu28YulIo7buGdzgN0bm",
+                    "cosine similarity": 0.9930632015381876,
+                    "euclidean distance": 0.2521142187511139,
+                    "manhattan distance": 0.5927259929072919,
+                    "mahalanobis distance": 1.7374984412979733,
+                    "pearson correlation": 0.9826163376505629
+                },
+                "2": {
+                    "id": "3bQoMbPYOvvseHaSOWAQ3Q",
+                    "cosine similarity": 0.9860042830143267,
+                    "euclidean distance": 0.3589108435899424,
+                    "manhattan distance": 0.6579714433374964,
+                    "mahalanobis distance": 1.955157646241745,
+                    "pearson correlation": 0.9650162650891904
+                },
+                "3": {
+                    "id": "4uy1mXLQUe6IW9BNUfZx15",
+                    "cosine similarity": 0.9811215855764963,
+                    "euclidean distance": 0.4275321555030327,
+                    "manhattan distance": 0.7554870608059953,
+                    "mahalanobis distance": 2.0853040382001558,
+                    "pearson correlation": 0.9556383751904572
+                },
+                "4": {
+                    "id": "1sWcWDgthOikmqaHdfTfW2",
+                    "cosine similarity": 0.9664078167696213,
+                    "euclidean distance": 0.5608134637211585,
+                    "manhattan distance": 1.188798727058221,
+                    "mahalanobis distance": 3.2577816549873986,
+                    "pearson correlation": 0.9164585482241839
+                },
+                "5": {
+                    "id": "107S1KOprUaRQqfI9nugxv",
+                    "cosine similarity": 0.9627242909169497,
+                    "euclidean distance": 0.5753760303486382,
+                    "manhattan distance": 1.450909681897338,
+                    "mahalanobis distance": 3.9379803350591813,
+                    "pearson correlation": 0.902469964161382
+                }
+            }
+        },
+        "77QKNMGwlnzxsTZPYfByMu": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about five songs that are similar to the one requested, detailing their attributes such as danceability, energy, key, loudness, and other musical features. This information can help in determining whether you would like the song based on your preferences for these musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "1zXTJp4mMwu2y69LajfzFK",
+                    "cosine similarity": 0.9780084197172005,
+                    "euclidean distance": 0.45582723183613283,
+                    "manhattan distance": 1.175988308521065,
+                    "mahalanobis distance": 3.2352365455010506,
+                    "pearson correlation": 0.9430535772716193
+                },
+                "2": {
+                    "id": "4pFC6tuWErxbO61oFFq3BQ",
+                    "cosine similarity": 0.9664417559900045,
+                    "euclidean distance": 0.5661523277458737,
+                    "manhattan distance": 1.2174746373080283,
+                    "mahalanobis distance": 3.0712229600884147,
+                    "pearson correlation": 0.908298649915546
+                },
+                "3": {
+                    "id": "6GjNQbnAPCFCxp45txPVfh",
+                    "cosine similarity": 0.9659290021720565,
+                    "euclidean distance": 0.6142111436847503,
+                    "manhattan distance": 1.2766618644392669,
+                    "mahalanobis distance": 4.580117217562792,
+                    "pearson correlation": 0.9069706484939575
+                },
+                "4": {
+                    "id": "3iZOVTPjyUEq9f5HsUQCj7",
+                    "cosine similarity": 0.9462346951244256,
+                    "euclidean distance": 0.6807112107399201,
+                    "manhattan distance": 1.4684129590061803,
+                    "mahalanobis distance": 3.3852998065512536,
+                    "pearson correlation": 0.8505370329570426
+                },
+                "5": {
+                    "id": "4YWg4PxJzMn84j7Fo32W4M",
+                    "cosine similarity": 0.9456413538076893,
+                    "euclidean distance": 0.719823505258142,
+                    "manhattan distance": 1.8266294792244784,
+                    "mahalanobis distance": 3.8409541831237446,
+                    "pearson correlation": 0.8526850715795173
+                }
+            }
+        },
+        "4CF6itOplqlu7ilwLtYUl3": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.611111111111111,
+            "relevance": {
+                "score": 0.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and provide a clear 'like' or 'dislike' label.\nSupporting Evidence: The response simply states 'like' without any additional information or reasoning based on the features provided in the table. It does not provide any evaluation or analysis of the song's characteristics to support the choice.\n\nScore: 0"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question of whether the user would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of several songs. It includes the names of the songs, their features, and whether they are liked or disliked. This information can help the user determine if they would like the song based on similarities with the songs provided.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3VYNqg6APRVQasDJnwlJ6H",
+                    "cosine similarity": 0.9699234278596937,
+                    "euclidean distance": 0.5649298040627142,
+                    "manhattan distance": 1.4008959207650369,
+                    "mahalanobis distance": 3.736666231414084,
+                    "pearson correlation": 0.9181862344398117
+                },
+                "2": {
+                    "id": "0rs6jxe3647mGSc7l18Cq8",
+                    "cosine similarity": 0.9614702535318946,
+                    "euclidean distance": 0.5448437836520037,
+                    "manhattan distance": 1.4521315679877682,
+                    "mahalanobis distance": 3.6691719353259207,
+                    "pearson correlation": 0.8911451717423724
+                },
+                "3": {
+                    "id": "5zWZ9iNevP0397xB3jWV2z",
+                    "cosine similarity": 0.9613494203392839,
+                    "euclidean distance": 0.5389881514118037,
+                    "manhattan distance": 1.364743315765942,
+                    "mahalanobis distance": 4.50418925694713,
+                    "pearson correlation": 0.9023324204988267
+                },
+                "4": {
+                    "id": "5T5mtNBCvVQ01WPr3MRzUY",
+                    "cosine similarity": 0.9584668733999888,
+                    "euclidean distance": 0.5098137797392743,
+                    "manhattan distance": 1.377117349958147,
+                    "mahalanobis distance": 3.6035284881850287,
+                    "pearson correlation": 0.886422141478081
+                },
+                "5": {
+                    "id": "4VdQCcXDuzb6Ks1yLT9FnO",
+                    "cosine similarity": 0.9582639741484684,
+                    "euclidean distance": 0.6586760597315867,
+                    "manhattan distance": 1.6912253270138091,
+                    "mahalanobis distance": 4.173191973480762,
+                    "pearson correlation": 0.8776180059132126
+                }
+            }
+        },
+        "1LWunyq4LMbOGjPD128dJy": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs that are most similar to the request. This information directly relates to the user's potential preference for the song based on its musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "1w2OwBeojIZI8hTI5WkMkV",
+                    "cosine similarity": 0.9778568429974688,
+                    "euclidean distance": 0.4669826777873987,
+                    "manhattan distance": 1.1269611751578648,
+                    "mahalanobis distance": 3.1759564089182835,
+                    "pearson correlation": 0.922600104147
+                },
+                "2": {
+                    "id": "3dl4lXWlOxnGo94OqNtpdq",
+                    "cosine similarity": 0.9673468096924087,
+                    "euclidean distance": 0.5720754783130914,
+                    "manhattan distance": 1.3947400661079794,
+                    "mahalanobis distance": 3.543945256792778,
+                    "pearson correlation": 0.8891355589887193
+                },
+                "3": {
+                    "id": "57RtLWT7IpugV0yi5bsxJk",
+                    "cosine similarity": 0.9646078225997481,
+                    "euclidean distance": 0.618878763832073,
+                    "manhattan distance": 1.4289585985089612,
+                    "mahalanobis distance": 3.6750691487082445,
+                    "pearson correlation": 0.8895131318589724
+                },
+                "4": {
+                    "id": "75bVc27bDSOAhMAL38cXpV",
+                    "cosine similarity": 0.9413643700668092,
+                    "euclidean distance": 0.7526441909415386,
+                    "manhattan distance": 2.0173422973669823,
+                    "mahalanobis distance": 3.4216060114508413,
+                    "pearson correlation": 0.7994859440611272
+                },
+                "5": {
+                    "id": "0HkoTr9t0f6MeqGoUS3E3e",
+                    "cosine similarity": 0.9364344329398028,
+                    "euclidean distance": 0.7832977527573936,
+                    "manhattan distance": 2.081348028343654,
+                    "mahalanobis distance": 4.0600766068921175,
+                    "pearson correlation": 0.7848490361724945
+                }
+            }
+        },
+        "5mA2JwcgMq4FIIBKKKLsuW": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.75,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Relevance to the entire PROMPT\nSupporting Evidence: The response \"like\" is directly answering the question of whether you would like the song based on the provided audio features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context in determining whether the user would like the song based on its similarity to other songs.\nSupporting Evidence: The context provides a list of the five most similar songs to the user's request, including details such as danceability, energy, key, loudness, and other musical features. By comparing these features to the user's preferences, it can help determine if the user would like the song.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3DZnc4lcqJF8FJmRbjrmA0",
+                    "cosine similarity": 0.9707360238522401,
+                    "euclidean distance": 0.43506806767189443,
+                    "manhattan distance": 1.073201093807972,
+                    "mahalanobis distance": 2.2551916550531983,
+                    "pearson correlation": 0.9308929293698629
+                },
+                "2": {
+                    "id": "4Y4diRGOGDxZcDh9qYwFVv",
+                    "cosine similarity": 0.9519512133908756,
+                    "euclidean distance": 0.5654309766972715,
+                    "manhattan distance": 1.3198572016495531,
+                    "mahalanobis distance": 2.6399653341124183,
+                    "pearson correlation": 0.8853925364542932
+                },
+                "3": {
+                    "id": "5HIaPHHvXP9D7lcDdFlvf9",
+                    "cosine similarity": 0.9505158801527809,
+                    "euclidean distance": 0.5989914009590779,
+                    "manhattan distance": 1.394308523022646,
+                    "mahalanobis distance": 2.680230936236011,
+                    "pearson correlation": 0.882560351483551
+                },
+                "4": {
+                    "id": "5T5mtNBCvVQ01WPr3MRzUY",
+                    "cosine similarity": 0.9450154249684817,
+                    "euclidean distance": 0.5950106984326664,
+                    "manhattan distance": 1.476029797009095,
+                    "mahalanobis distance": 2.3283238244302575,
+                    "pearson correlation": 0.8674505401483418
+                },
+                "5": {
+                    "id": "00X2yv2vrtritPt2CZnUTZ",
+                    "cosine similarity": 0.9306389752502843,
+                    "euclidean distance": 0.714572849290403,
+                    "manhattan distance": 1.4704209938434467,
+                    "mahalanobis distance": 2.4053582076912816,
+                    "pearson correlation": 0.8305697162237959
+                }
+            }
+        },
+        "0lkQfsTMmtDA37tjjew9n0": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and provide a clear 'like' or 'dislike' label.\nSupporting Evidence: The response 'like' indicates that the user would enjoy the song based on the features provided in the table. The features such as danceability, energy, key, loudness, and valence are all moderate to high, suggesting a potentially enjoyable song for the user.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of several songs. This information can help in determining whether you would like a song based on its characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6VSaNvPPagk4U5Skxp6XfV",
+                    "cosine similarity": 0.9883615283227672,
+                    "euclidean distance": 0.2982267912421536,
+                    "manhattan distance": 0.645231327253661,
+                    "mahalanobis distance": 2.8178258401093244,
+                    "pearson correlation": 0.9716435463274652
+                },
+                "2": {
+                    "id": "6hzi3AGB39FjxFqcjgbWs7",
+                    "cosine similarity": 0.9774266099275444,
+                    "euclidean distance": 0.3988151129037783,
+                    "manhattan distance": 0.9863584187572146,
+                    "mahalanobis distance": 2.1440688104176076,
+                    "pearson correlation": 0.9444897756392292
+                },
+                "3": {
+                    "id": "6aH3QgooXRmx8k8jzrSm3V",
+                    "cosine similarity": 0.9762249612571113,
+                    "euclidean distance": 0.3822380565210643,
+                    "manhattan distance": 0.9150166437958679,
+                    "mahalanobis distance": 1.450198364256154,
+                    "pearson correlation": 0.941540336310973
+                },
+                "4": {
+                    "id": "1gVnckXtTdCoLwtiPPqlQS",
+                    "cosine similarity": 0.9752720694917667,
+                    "euclidean distance": 0.3904631193532464,
+                    "manhattan distance": 0.943378809635868,
+                    "mahalanobis distance": 1.5730392099112886,
+                    "pearson correlation": 0.9393551447186352
+                },
+                "5": {
+                    "id": "4LAGHmHcSt0HHwXCJcFri6",
+                    "cosine similarity": 0.9693208102737367,
+                    "euclidean distance": 0.4195581503017422,
+                    "manhattan distance": 1.110337275370752,
+                    "mahalanobis distance": 2.8941754456194015,
+                    "pearson correlation": 0.9245584593400042
+                }
+            }
+        },
+        "3dl4lXWlOxnGo94OqNtpdq": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided data.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context in determining whether the user would like the song based on its similarity to other songs.\nSupporting Evidence: The context provides a list of the five most similar songs to the user's request, including their features such as danceability, energy, key, loudness, and more. By comparing these features to the user's preferences, it can help determine if the user would like the song in question.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "1w2OwBeojIZI8hTI5WkMkV",
+                    "cosine similarity": 0.9903424433673936,
+                    "euclidean distance": 0.3127483829746728,
+                    "manhattan distance": 0.8163550925019059,
+                    "mahalanobis distance": 2.1125827754298676,
+                    "pearson correlation": 0.9672127141745576
+                },
+                "2": {
+                    "id": "1LWunyq4LMbOGjPD128dJy",
+                    "cosine similarity": 0.9673468090955948,
+                    "euclidean distance": 0.5720754897609682,
+                    "manhattan distance": 1.394740036944487,
+                    "mahalanobis distance": 3.5439452972597936,
+                    "pearson correlation": 0.8891355564421534
+                },
+                "3": {
+                    "id": "0HkoTr9t0f6MeqGoUS3E3e",
+                    "cosine similarity": 0.9565160280028839,
+                    "euclidean distance": 0.655372487459597,
+                    "manhattan distance": 1.568622626965021,
+                    "mahalanobis distance": 3.0849026659687433,
+                    "pearson correlation": 0.8531869273238547
+                },
+                "4": {
+                    "id": "6Fn1k9ctMXsh5xrrMRaGQZ",
+                    "cosine similarity": 0.9563438482634626,
+                    "euclidean distance": 0.6585108099379078,
+                    "manhattan distance": 1.6702648974099914,
+                    "mahalanobis distance": 2.6649089162276187,
+                    "pearson correlation": 0.8488967932891572
+                },
+                "5": {
+                    "id": "3UKwm5G898I1BvYt7uU4t0",
+                    "cosine similarity": 0.9435507474895146,
+                    "euclidean distance": 0.7451525332263244,
+                    "manhattan distance": 1.76432902396651,
+                    "mahalanobis distance": 4.012461501489244,
+                    "pearson correlation": 0.8275546343447963
+                }
+            }
+        },
+        "4gohbLz14XeqPbH5uxbZBz": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about the most similar songs to the user's request, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information allows the user to compare the attributes of the similar songs to the song in question and make an informed decision on whether they would like it based on their preferences.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "0rs6jxe3647mGSc7l18Cq8",
+                    "cosine similarity": 0.9829925684363613,
+                    "euclidean distance": 0.3634232725888335,
+                    "manhattan distance": 0.957833264031599,
+                    "mahalanobis distance": 2.0262137268209193,
+                    "pearson correlation": 0.9515777228725747
+                },
+                "2": {
+                    "id": "2fl01uGwbppFEci7qij1lU",
+                    "cosine similarity": 0.9814976363456355,
+                    "euclidean distance": 0.387285762801955,
+                    "manhattan distance": 0.9939255372603799,
+                    "mahalanobis distance": 1.7239416052142411,
+                    "pearson correlation": 0.947723479144339
+                },
+                "3": {
+                    "id": "1NW4kNeeaRl5xxOnOLsYIJ",
+                    "cosine similarity": 0.9790387381678481,
+                    "euclidean distance": 0.4104668006702399,
+                    "manhattan distance": 0.8271322790921353,
+                    "mahalanobis distance": 1.5933477669253615,
+                    "pearson correlation": 0.9411917862641516
+                },
+                "4": {
+                    "id": "3VYNqg6APRVQasDJnwlJ6H",
+                    "cosine similarity": 0.973863366926855,
+                    "euclidean distance": 0.47361212420111765,
+                    "manhattan distance": 1.167243224662826,
+                    "mahalanobis distance": 1.9869989168507414,
+                    "pearson correlation": 0.9287884087220607
+                },
+                "5": {
+                    "id": "0hkXsgdRk1TAOuOEpzznkI",
+                    "cosine similarity": 0.9683213362621967,
+                    "euclidean distance": 0.4942194727173035,
+                    "manhattan distance": 1.0475749447948752,
+                    "mahalanobis distance": 2.8478819394033423,
+                    "pearson correlation": 0.9075559204685492
+                }
+            }
+        },
+        "5WGvXmLt6acluR7TfhlHUH": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating whether you would like the song based on the provided audio features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context provides information about the most similar songs to the user's request, including their features such as danceability, energy, key, loudness, and more. This information can help the user determine if they would like the song based on their preferences for these musical elements.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3iZOVTPjyUEq9f5HsUQCj7",
+                    "cosine similarity": 0.957219175796741,
+                    "euclidean distance": 0.6088987842623628,
+                    "manhattan distance": 1.2896328791795633,
+                    "mahalanobis distance": 3.4964504314766858,
+                    "pearson correlation": 0.9060537754996029
+                },
+                "2": {
+                    "id": "7tLevkJnFLOMtOOUmhznQa",
+                    "cosine similarity": 0.9558556708620024,
+                    "euclidean distance": 0.6410709693720574,
+                    "manhattan distance": 1.5419509582919293,
+                    "mahalanobis distance": 4.59075194362526,
+                    "pearson correlation": 0.9076402383487975
+                },
+                "3": {
+                    "id": "4pFC6tuWErxbO61oFFq3BQ",
+                    "cosine similarity": 0.9514653112398107,
+                    "euclidean distance": 0.6723633148508956,
+                    "manhattan distance": 1.482363704623899,
+                    "mahalanobis distance": 4.752883792525897,
+                    "pearson correlation": 0.8893236159021993
+                },
+                "4": {
+                    "id": "1SEE3lvWDlSYVEySrrAfMs",
+                    "cosine similarity": 0.9401300612570186,
+                    "euclidean distance": 0.7713711259525748,
+                    "manhattan distance": 1.7673206917980269,
+                    "mahalanobis distance": 4.9206749814065835,
+                    "pearson correlation": 0.8587835963121839
+                },
+                "5": {
+                    "id": "4YWg4PxJzMn84j7Fo32W4M",
+                    "cosine similarity": 0.9385066174587098,
+                    "euclidean distance": 0.7622555159318002,
+                    "manhattan distance": 1.6917969253757503,
+                    "mahalanobis distance": 4.43480215719255,
+                    "pearson correlation": 0.8540272528118775
+                }
+            }
+        },
+        "5fEJDiHWMECUifmNipjvqO": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context provides information about the characteristics of the song in question and compares it to similar songs based on various musical features such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information allows for a comparison between the user's preferences and the song's attributes, aiding in determining potential likeness.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3yFf0EtFwkiVSbf8CK4CB3",
+                    "cosine similarity": 0.9955799810531674,
+                    "euclidean distance": 0.2254252226120137,
+                    "manhattan distance": 0.5911825478177649,
+                    "mahalanobis distance": 1.305037869276844,
+                    "pearson correlation": 0.9879791630037233
+                },
+                "2": {
+                    "id": "4avTQmRrg717z7AuXqYY0V",
+                    "cosine similarity": 0.9948559342107759,
+                    "euclidean distance": 0.22447521800069622,
+                    "manhattan distance": 0.47462025724146784,
+                    "mahalanobis distance": 1.314719413194941,
+                    "pearson correlation": 0.9842946941313765
+                },
+                "3": {
+                    "id": "2lTWOBGyQkBRIgzCtomXSL",
+                    "cosine similarity": 0.9930351672056914,
+                    "euclidean distance": 0.25204452344095063,
+                    "manhattan distance": 0.659394566143228,
+                    "mahalanobis distance": 1.9230530735392322,
+                    "pearson correlation": 0.9789067183447913
+                },
+                "4": {
+                    "id": "66ks5ll4gswiaE7lfb2QMz",
+                    "cosine similarity": 0.9896840689506852,
+                    "euclidean distance": 0.3057264644905177,
+                    "manhattan distance": 0.8424236604053262,
+                    "mahalanobis distance": 1.4155792822225384,
+                    "pearson correlation": 0.9684196682420696
+                },
+                "5": {
+                    "id": "6u1rhQAvxkWLeuqUC3iJD0",
+                    "cosine similarity": 0.9869248276706142,
+                    "euclidean distance": 0.3449979809302699,
+                    "manhattan distance": 0.9635369182858594,
+                    "mahalanobis distance": 1.59506994517442,
+                    "pearson correlation": 0.9637134671293461
+                }
+            }
+        },
+        "66ks5ll4gswiaE7lfb2QMz": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs \"Chloroquine,\" \"Bon d\u00c3\u00a9j\u00c3,\" \"Goulag,\" \"BBJTM,\" and \"Batman.\" These attributes are crucial in determining whether the user would like a song based on their preferences.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "4avTQmRrg717z7AuXqYY0V",
+                    "cosine similarity": 0.9924977775128693,
+                    "euclidean distance": 0.273485942820312,
+                    "manhattan distance": 0.6729853266309909,
+                    "mahalanobis distance": 1.6271721769947618,
+                    "pearson correlation": 0.9764030872445935
+                },
+                "2": {
+                    "id": "1UvYiDcJVolpUAQWpwrxNw",
+                    "cosine similarity": 0.9914103485664718,
+                    "euclidean distance": 0.31314328666788616,
+                    "manhattan distance": 0.7512544463844824,
+                    "mahalanobis distance": 2.34253399985703,
+                    "pearson correlation": 0.9758897283563138
+                },
+                "3": {
+                    "id": "5fEJDiHWMECUifmNipjvqO",
+                    "cosine similarity": 0.9896840701939648,
+                    "euclidean distance": 0.3057264428276588,
+                    "manhattan distance": 0.8424235757796532,
+                    "mahalanobis distance": 1.4155791923984042,
+                    "pearson correlation": 0.9684196712412134
+                },
+                "4": {
+                    "id": "5hlashYN7IwHpQ4PLtQNf4",
+                    "cosine similarity": 0.9894130732358475,
+                    "euclidean distance": 0.3197507819729788,
+                    "manhattan distance": 0.9491195910704944,
+                    "mahalanobis distance": 1.8156373103551937,
+                    "pearson correlation": 0.9651848977131187
+                },
+                "5": {
+                    "id": "3yFf0EtFwkiVSbf8CK4CB3",
+                    "cosine similarity": 0.9888898757445436,
+                    "euclidean distance": 0.34457098447825174,
+                    "manhattan distance": 0.90891689922504,
+                    "mahalanobis distance": 1.5105250108052066,
+                    "pearson correlation": 0.9634403487154389
+                }
+            }
+        },
+        "6YHnhfw8yMCx4vZvsgem3D": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.3333333333333333,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context to determine whether the user would like the song.\nSupporting Evidence: The context provides information about the five most similar songs to the user's request, including their attributes such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. It also includes whether each song is liked or disliked. This information allows for a comparison between the user's preferences and the attributes of the similar songs provided.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "00X2yv2vrtritPt2CZnUTZ",
+                    "cosine similarity": 0.9849651238023333,
+                    "euclidean distance": 0.421883505121647,
+                    "manhattan distance": 0.9059567747102876,
+                    "mahalanobis distance": 1.5306229905121767,
+                    "pearson correlation": 0.9562436400309996
+                },
+                "2": {
+                    "id": "7tN7t8ECFVrExNd3qaqT3u",
+                    "cosine similarity": 0.980954772797763,
+                    "euclidean distance": 0.5395669642317118,
+                    "manhattan distance": 1.2828474237401875,
+                    "mahalanobis distance": 2.3679009951762526,
+                    "pearson correlation": 0.9496141769905603
+                },
+                "3": {
+                    "id": "1s3XtkdfT3obSCbQVWtvX9",
+                    "cosine similarity": 0.9792472327404043,
+                    "euclidean distance": 0.4891742809539552,
+                    "manhattan distance": 1.1688720935399959,
+                    "mahalanobis distance": 2.1046901013419506,
+                    "pearson correlation": 0.9380972069335131
+                },
+                "4": {
+                    "id": "0V5c3isfSfyl7zQDtV9fAp",
+                    "cosine similarity": 0.9734075852269505,
+                    "euclidean distance": 0.5033499921415626,
+                    "manhattan distance": 1.2294275764776819,
+                    "mahalanobis distance": 2.5738230692370005,
+                    "pearson correlation": 0.9204773686354001
+                },
+                "5": {
+                    "id": "4JsQkSOE4taeyhH3pv1een",
+                    "cosine similarity": 0.9721513703023065,
+                    "euclidean distance": 0.5299459878010477,
+                    "manhattan distance": 1.075088376955782,
+                    "mahalanobis distance": 2.201953290161537,
+                    "pearson correlation": 0.9215397218521164
+                }
+            }
+        },
+        "3qjDXaWCalJ9ZzaHBG4j3V": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the song \"Remise en forme\" and four other similar songs. This information directly relates to the user's question about whether they would like the song based on its characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "0De4Cl3YncrwWkqJiJfA7k",
+                    "cosine similarity": 0.9934158997330526,
+                    "euclidean distance": 0.32550244763757935,
+                    "manhattan distance": 0.7201614355495718,
+                    "mahalanobis distance": 1.2655292508842697,
+                    "pearson correlation": 0.9687203074184773
+                },
+                "2": {
+                    "id": "3Sd7FiZtfsVHKEvjshCsHC",
+                    "cosine similarity": 0.9853792926170516,
+                    "euclidean distance": 0.4197908133512914,
+                    "manhattan distance": 1.1039405265874604,
+                    "mahalanobis distance": 2.214945622334861,
+                    "pearson correlation": 0.9407403985100369
+                },
+                "3": {
+                    "id": "3wG9ykVbw7fhfLsoZGPT1E",
+                    "cosine similarity": 0.9828981447936851,
+                    "euclidean distance": 0.5303877191104809,
+                    "manhattan distance": 1.2518036412351454,
+                    "mahalanobis distance": 2.3164811148621034,
+                    "pearson correlation": 0.9156456092164003
+                },
+                "4": {
+                    "id": "0O4U6fVE1TwWYhM4fKr1Fh",
+                    "cosine similarity": 0.9822498213874143,
+                    "euclidean distance": 0.4482540304758827,
+                    "manhattan distance": 1.0977446127569084,
+                    "mahalanobis distance": 2.3534052484422663,
+                    "pearson correlation": 0.9156158409316265
+                },
+                "5": {
+                    "id": "7gi31ULI4vzNFUw8pokrfm",
+                    "cosine similarity": 0.9799079832243528,
+                    "euclidean distance": 0.4745537897054738,
+                    "manhattan distance": 1.1249986633385853,
+                    "mahalanobis distance": 1.9975451708647658,
+                    "pearson correlation": 0.9246147810905649
+                }
+            }
+        },
+        "3iZOVTPjyUEq9f5HsUQCj7": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating whether you would like the song based on the provided features. It does not provide any additional information beyond the requested label.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context to determine if the user would like the song based on its musical features.\nSupporting Evidence: The context provides information about the musical features of several songs, including danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. It compares these features to the user's request and includes a label indicating whether the songs are liked or disliked.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3SnGymj6ijE2iuUfWxLo1q",
+                    "cosine similarity": 0.9720120060299565,
+                    "euclidean distance": 0.5199062172686095,
+                    "manhattan distance": 1.4594533767984645,
+                    "mahalanobis distance": 3.127189050643765,
+                    "pearson correlation": 0.9157445373684091
+                },
+                "2": {
+                    "id": "2UREu1Y8CO4jXkbvqAtP7g",
+                    "cosine similarity": 0.9702302199344942,
+                    "euclidean distance": 0.5758519687729814,
+                    "manhattan distance": 1.5238123949712015,
+                    "mahalanobis distance": 2.094700292376787,
+                    "pearson correlation": 0.9103386199528304
+                },
+                "3": {
+                    "id": "4pFC6tuWErxbO61oFFq3BQ",
+                    "cosine similarity": 0.9654853586395346,
+                    "euclidean distance": 0.5686181368350754,
+                    "manhattan distance": 0.9638640714863016,
+                    "mahalanobis distance": 2.2451295553976545,
+                    "pearson correlation": 0.8946806342802359
+                },
+                "4": {
+                    "id": "7tLevkJnFLOMtOOUmhznQa",
+                    "cosine similarity": 0.9604650860208362,
+                    "euclidean distance": 0.6066363196381916,
+                    "manhattan distance": 1.410194238155789,
+                    "mahalanobis distance": 2.6231946909671775,
+                    "pearson correlation": 0.8739607663812858
+                },
+                "5": {
+                    "id": "4dwrL3Z5U2RZ6MZiKE2PgL",
+                    "cosine similarity": 0.958745641410334,
+                    "euclidean distance": 0.6195887536896519,
+                    "manhattan distance": 1.460814497251231,
+                    "mahalanobis distance": 2.2361037994739443,
+                    "pearson correlation": 0.8778188721772927
+                }
+            }
+        },
+        "7AJKmkPoSxic6mdUSjrbUZ": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8055555555555555,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the song \"Quoi de neuf?\" and four other similar songs. This information directly relates to the user's question about whether they would like the song based on its musical characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6dS1JCvtMJQ1O9bseVLyJz",
+                    "cosine similarity": 0.9749481360315116,
+                    "euclidean distance": 0.5091905414567046,
+                    "manhattan distance": 1.1168027377153211,
+                    "mahalanobis distance": 2.9511102375624376,
+                    "pearson correlation": 0.9225994092077872
+                },
+                "2": {
+                    "id": "3Abk2vuXSoz1z9lJKjJkCr",
+                    "cosine similarity": 0.9742417412814248,
+                    "euclidean distance": 0.4949732934508431,
+                    "manhattan distance": 0.9229238166383735,
+                    "mahalanobis distance": 2.4736229064051525,
+                    "pearson correlation": 0.9229030524840236
+                },
+                "3": {
+                    "id": "0jU7JpfPrm7jjaLjFLXZLh",
+                    "cosine similarity": 0.9584454928467329,
+                    "euclidean distance": 0.6630991454762126,
+                    "manhattan distance": 1.5961667078595263,
+                    "mahalanobis distance": 3.721450135753044,
+                    "pearson correlation": 0.8700825411003095
+                },
+                "4": {
+                    "id": "43kQu3PTBhCZCNhzaufAaX",
+                    "cosine similarity": 0.9566147702778429,
+                    "euclidean distance": 0.7000768138866124,
+                    "manhattan distance": 1.9391414385363372,
+                    "mahalanobis distance": 4.588870694405503,
+                    "pearson correlation": 0.8672875086839187
+                },
+                "5": {
+                    "id": "0gQB2HvjH14xfWVmYEUafn",
+                    "cosine similarity": 0.9544327100507323,
+                    "euclidean distance": 0.6544716340325129,
+                    "manhattan distance": 1.3962645397947329,
+                    "mahalanobis distance": 4.026067193698076,
+                    "pearson correlation": 0.8580691850288676
+                }
+            }
+        },
+        "2UwrB6Ge6mPfUV8yGvAfX7": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.7870370370370371,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about the five most similar songs to the user's request, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information directly aligns with the user's question of evaluating whether they would like the song based on its musical attributes.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3zCWbPJVp1egCgyoMYAsDN",
+                    "cosine similarity": 0.9941708043046296,
+                    "euclidean distance": 0.271094629437078,
+                    "manhattan distance": 0.7443342891695706,
+                    "mahalanobis distance": 1.6435592224942188,
+                    "pearson correlation": 0.9852928089629169
+                },
+                "2": {
+                    "id": "6pjtY9QtWHxTqPkTfGW0ru",
+                    "cosine similarity": 0.9909128793307319,
+                    "euclidean distance": 0.305618477654143,
+                    "manhattan distance": 0.5309992526074988,
+                    "mahalanobis distance": 1.5699315492518657,
+                    "pearson correlation": 0.9751314176476729
+                },
+                "3": {
+                    "id": "4uq48sO2YTTJ0l74R9tOdo",
+                    "cosine similarity": 0.9870071693915273,
+                    "euclidean distance": 0.3804490923273014,
+                    "manhattan distance": 0.8121182336326717,
+                    "mahalanobis distance": 1.783361060747264,
+                    "pearson correlation": 0.9596934564724314
+                },
+                "4": {
+                    "id": "216QmkNpU3hIjeZtGocb9B",
+                    "cosine similarity": 0.9842197208366329,
+                    "euclidean distance": 0.4075819397221667,
+                    "manhattan distance": 1.0373447812836532,
+                    "mahalanobis distance": 2.4150030850014925,
+                    "pearson correlation": 0.9558096682336901
+                },
+                "5": {
+                    "id": "5VyfAfp2Yt3qaeuvq55ll3",
+                    "cosine similarity": 0.9803725769331695,
+                    "euclidean distance": 0.4578130287793935,
+                    "manhattan distance": 0.9729547434795838,
+                    "mahalanobis distance": 2.941218082092512,
+                    "pearson correlation": 0.9400044786033729
+                }
+            }
+        },
+        "5xm20JNLHy9vUVrnmZS6Uj": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.393939393939394,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating whether you would like the song based on the provided features. It does not provide any additional information beyond the requested label.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of several songs. These details can help determine if the user would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3QPPP2YozZ5xmMmpDB3c9n",
+                    "cosine similarity": 0.8761406794685103,
+                    "euclidean distance": 0.9270711599046213,
+                    "manhattan distance": 2.4767322746192537,
+                    "mahalanobis distance": 5.993902563776096,
+                    "pearson correlation": 0.7078532909081215
+                },
+                "2": {
+                    "id": "1mlLOJXeUrwviYpUHYeZE8",
+                    "cosine similarity": 0.8730924194660036,
+                    "euclidean distance": 0.874473545033182,
+                    "manhattan distance": 2.2639678935021754,
+                    "mahalanobis distance": 4.870171381613391,
+                    "pearson correlation": 0.7344146353879775
+                },
+                "3": {
+                    "id": "5xbuJuQsTVheVZvX2AJVIv",
+                    "cosine similarity": 0.8611315479135269,
+                    "euclidean distance": 0.8895481226683544,
+                    "manhattan distance": 2.5568444990540886,
+                    "mahalanobis distance": 6.31368784548483,
+                    "pearson correlation": 0.6264044384721028
+                },
+                "4": {
+                    "id": "64LTn5fTsPR0QLy7bVYl9w",
+                    "cosine similarity": 0.8450449138724653,
+                    "euclidean distance": 0.9234274671383363,
+                    "manhattan distance": 2.1273335890690532,
+                    "mahalanobis distance": 4.4115599307255335,
+                    "pearson correlation": 0.6947237518317139
+                },
+                "5": {
+                    "id": "5qVqMPQdfFywNQIOP7Ncdz",
+                    "cosine similarity": 0.8180390421691773,
+                    "euclidean distance": 1.1808047446660288,
+                    "manhattan distance": 2.6931079279210097,
+                    "mahalanobis distance": 4.999065312550319,
+                    "pearson correlation": 0.5008773788176126
+                }
+            }
+        },
+        "2EMTOyiYWGOIS3qg5jkcQT": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context consists of information about the five most similar songs to the user's request, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information directly relates to the user's question about whether they would like the song based on its characteristics.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3qjDXaWCalJ9ZzaHBG4j3V",
+                    "cosine similarity": 0.9781592328874852,
+                    "euclidean distance": 0.49579328021295543,
+                    "manhattan distance": 1.1737649053440395,
+                    "mahalanobis distance": 2.456739654640798,
+                    "pearson correlation": 0.9210730456277572
+                },
+                "2": {
+                    "id": "03JjVo4OYciAi88SEdtDii",
+                    "cosine similarity": 0.9762076840670355,
+                    "euclidean distance": 0.4820685764010441,
+                    "manhattan distance": 1.2336126471810245,
+                    "mahalanobis distance": 2.439188417670932,
+                    "pearson correlation": 0.9128663487425859
+                },
+                "3": {
+                    "id": "0O4U6fVE1TwWYhM4fKr1Fh",
+                    "cosine similarity": 0.9716058955130876,
+                    "euclidean distance": 0.5783938500495506,
+                    "manhattan distance": 1.4310491482952266,
+                    "mahalanobis distance": 2.7150782116181054,
+                    "pearson correlation": 0.8930484917548106
+                },
+                "4": {
+                    "id": "6fmtZEUoGwxPNvUgr0NJm1",
+                    "cosine similarity": 0.9687285574122775,
+                    "euclidean distance": 0.5576888011862976,
+                    "manhattan distance": 1.2598453468938628,
+                    "mahalanobis distance": 2.74385821149875,
+                    "pearson correlation": 0.8917799402165099
+                },
+                "5": {
+                    "id": "3Sd7FiZtfsVHKEvjshCsHC",
+                    "cosine similarity": 0.9674768254258751,
+                    "euclidean distance": 0.6372618369137156,
+                    "manhattan distance": 1.7051976560667905,
+                    "mahalanobis distance": 2.8832571307740444,
+                    "pearson correlation": 0.8769709158781837
+                }
+            }
+        },
+        "1X4gWy941yRMvafHs4n2sQ": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question asked.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of several songs that are similar to the request. This information can help in determining whether you would like the song based on its characteristics.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "7e176FKv7cq6SG9EXYMLoQ",
+                    "cosine similarity": 0.9519766378702351,
+                    "euclidean distance": 0.6276417414656019,
+                    "manhattan distance": 1.663630944766615,
+                    "mahalanobis distance": 4.6250829924606025,
+                    "pearson correlation": 0.8658125202653342
+                },
+                "2": {
+                    "id": "45oFq8ZKV9KDhzYb2Rh1y4",
+                    "cosine similarity": 0.9500685347662874,
+                    "euclidean distance": 0.6294079294701687,
+                    "manhattan distance": 1.6596944074517275,
+                    "mahalanobis distance": 4.323023892673598,
+                    "pearson correlation": 0.8776660678456052
+                },
+                "3": {
+                    "id": "4JsQkSOE4taeyhH3pv1een",
+                    "cosine similarity": 0.9482130386965153,
+                    "euclidean distance": 0.6428436809629146,
+                    "manhattan distance": 1.8072450118646541,
+                    "mahalanobis distance": 4.819837236677156,
+                    "pearson correlation": 0.8583136852042151
+                },
+                "4": {
+                    "id": "1nD9xhaOKlHmZssLhVWRo1",
+                    "cosine similarity": 0.9453709363452039,
+                    "euclidean distance": 0.6608295870742039,
+                    "manhattan distance": 1.5254141664217813,
+                    "mahalanobis distance": 4.107662791352238,
+                    "pearson correlation": 0.8558877918547226
+                },
+                "5": {
+                    "id": "6mkAhxAj1y5zvXWefkd9y7",
+                    "cosine similarity": 0.9370387401854373,
+                    "euclidean distance": 0.7078993840361687,
+                    "manhattan distance": 1.7390973784621298,
+                    "mahalanobis distance": 5.19505780184339,
+                    "pearson correlation": 0.8334834654806254
+                }
+            }
+        },
+        "5T5mtNBCvVQ01WPr3MRzUY": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and provide a clear 'like' or 'dislike' response.\nSupporting Evidence: The response 'like' indicates that the user would enjoy the song based on the features provided in the table. The song has a high danceability (0.73), energy (0.74), loudness (0.88), and valence (0.58), which are typically characteristics that appeal to listeners who enjoy upbeat and energetic music.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context provides information about the most similar songs to the requested one, including their attributes and whether they are liked or disliked. This information can help determine if you would like the song based on similarities with songs you already like or dislike.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "4sTDuXa8uGDHwJdsXUqIBo",
+                    "cosine similarity": 0.981956838494376,
+                    "euclidean distance": 0.3521442911301368,
+                    "manhattan distance": 0.8600578473655087,
+                    "mahalanobis distance": 2.3272462573295747,
+                    "pearson correlation": 0.9516992560810362
+                },
+                "2": {
+                    "id": "00X2yv2vrtritPt2CZnUTZ",
+                    "cosine similarity": 0.9760278244794077,
+                    "euclidean distance": 0.4446385956153197,
+                    "manhattan distance": 0.9701070986956265,
+                    "mahalanobis distance": 1.7616314532357025,
+                    "pearson correlation": 0.9344136806135637
+                },
+                "3": {
+                    "id": "5zWZ9iNevP0397xB3jWV2z",
+                    "cosine similarity": 0.9755114054565885,
+                    "euclidean distance": 0.4373370640103576,
+                    "manhattan distance": 1.0495724732937657,
+                    "mahalanobis distance": 2.281594703456238,
+                    "pearson correlation": 0.9388634726034394
+                },
+                "4": {
+                    "id": "4JsQkSOE4taeyhH3pv1een",
+                    "cosine similarity": 0.975299922710107,
+                    "euclidean distance": 0.4602977847360007,
+                    "manhattan distance": 1.1945142798392203,
+                    "mahalanobis distance": 1.91311997624854,
+                    "pearson correlation": 0.9330712059473136
+                },
+                "5": {
+                    "id": "1s3XtkdfT3obSCbQVWtvX9",
+                    "cosine similarity": 0.975288589488687,
+                    "euclidean distance": 0.43528007562745386,
+                    "manhattan distance": 0.9267172444530102,
+                    "mahalanobis distance": 2.2520086664154313,
+                    "pearson correlation": 0.9323669911002519
+                }
+            }
+        },
+        "1QqsAlhs7pxcXs9BMB1Nv5": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and valence. Each song is labeled either \"like\" or \"dislike\" based on its similarity to the requested song. This information allows for a comparison between the requested song and the similar songs provided, aiding in predicting whether the user would like the song based on their preferences.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "5uuJruktM9fMdN9Va0DUMl",
+                    "cosine similarity": 0.9608220204872245,
+                    "euclidean distance": 0.7541276683717664,
+                    "manhattan distance": 1.5400954380364733,
+                    "mahalanobis distance": 5.999506581531036,
+                    "pearson correlation": 0.8750697074444799
+                },
+                "2": {
+                    "id": "3SnGymj6ijE2iuUfWxLo1q",
+                    "cosine similarity": 0.9569981952892641,
+                    "euclidean distance": 0.8062897681641882,
+                    "manhattan distance": 1.8611769155861504,
+                    "mahalanobis distance": 5.659523700399368,
+                    "pearson correlation": 0.8255034559755229
+                },
+                "3": {
+                    "id": "4dwrL3Z5U2RZ6MZiKE2PgL",
+                    "cosine similarity": 0.9462075679658042,
+                    "euclidean distance": 0.887585364364139,
+                    "manhattan distance": 1.9527902117991554,
+                    "mahalanobis distance": 7.239119730799749,
+                    "pearson correlation": 0.8364075846201753
+                },
+                "4": {
+                    "id": "5gqh2FMBquUEwDsRUU4pCF",
+                    "cosine similarity": 0.9425139779948978,
+                    "euclidean distance": 0.8850941894215917,
+                    "manhattan distance": 2.034078601999314,
+                    "mahalanobis distance": 6.495228368509751,
+                    "pearson correlation": 0.8061962436968103
+                },
+                "5": {
+                    "id": "5nNmj1cLH3r4aA4XDJ2bgY",
+                    "cosine similarity": 0.9405227369507085,
+                    "euclidean distance": 0.8886484617393688,
+                    "manhattan distance": 1.734773607243301,
+                    "mahalanobis distance": 7.186573152745927,
+                    "pearson correlation": 0.7909052736545779
+                }
+            }
+        },
+        "7tN7t8ECFVrExNd3qaqT3u": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 1.0,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is relevant to the entire prompt as it directly answers whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. Each song is labeled either \"like\" or \"dislike\" based on its similarity to the user's request. This information allows for a comparison between the user's preferences and the characteristics of the songs provided.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "00X2yv2vrtritPt2CZnUTZ",
+                    "cosine similarity": 0.9921752957867943,
+                    "euclidean distance": 0.27983396802333244,
+                    "manhattan distance": 0.6308893855306058,
+                    "mahalanobis distance": 1.444066555626094,
+                    "pearson correlation": 0.9800190719182935
+                },
+                "2": {
+                    "id": "1s3XtkdfT3obSCbQVWtvX9",
+                    "cosine similarity": 0.9849362393467452,
+                    "euclidean distance": 0.34430129569413054,
+                    "manhattan distance": 0.8021002236598243,
+                    "mahalanobis distance": 2.5847375205389276,
+                    "pearson correlation": 0.960943283010649
+                },
+                "3": {
+                    "id": "6YHnhfw8yMCx4vZvsgem3D",
+                    "cosine similarity": 0.9809547756718341,
+                    "euclidean distance": 0.5395669364715165,
+                    "manhattan distance": 1.282847381363133,
+                    "mahalanobis distance": 2.3679007527300495,
+                    "pearson correlation": 0.9496141848218873
+                },
+                "4": {
+                    "id": "5T5mtNBCvVQ01WPr3MRzUY",
+                    "cosine similarity": 0.9749991597381988,
+                    "euclidean distance": 0.4004531327208384,
+                    "manhattan distance": 0.7802408577389155,
+                    "mahalanobis distance": 1.9507427510443267,
+                    "pearson correlation": 0.9336638856449069
+                },
+                "5": {
+                    "id": "4JsQkSOE4taeyhH3pv1een",
+                    "cosine similarity": 0.9720187203128717,
+                    "euclidean distance": 0.4778931077742804,
+                    "manhattan distance": 1.35090828754971,
+                    "mahalanobis distance": 2.8264931725204807,
+                    "pearson correlation": 0.9251033505719763
+                }
+            }
+        },
+        "6gP7mrmL9EsFS3sMpk3Ig3": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.5555555555555555,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire PROMPT to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" directly answers the prompt by indicating whether you would like the song based on the provided features. It does not provide any additional information beyond the requested label.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about the characteristics of five songs that are similar to the requested song, including details on danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information can help determine if the user would like the song based on their preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "107S1KOprUaRQqfI9nugxv",
+                    "cosine similarity": 0.9796159087044449,
+                    "euclidean distance": 0.4223079835466102,
+                    "manhattan distance": 1.0779772705690163,
+                    "mahalanobis distance": 3.174852740957493,
+                    "pearson correlation": 0.9471731639285647
+                },
+                "2": {
+                    "id": "5ycOd8aYjGCIrDfLNKqmKW",
+                    "cosine similarity": 0.9728014801033288,
+                    "euclidean distance": 0.47964628930831676,
+                    "manhattan distance": 1.0586878828136634,
+                    "mahalanobis distance": 2.7658060942701765,
+                    "pearson correlation": 0.9213367414236479
+                },
+                "3": {
+                    "id": "3bQoMbPYOvvseHaSOWAQ3Q",
+                    "cosine similarity": 0.9696923784763671,
+                    "euclidean distance": 0.5053973165215196,
+                    "manhattan distance": 1.2186690081189926,
+                    "mahalanobis distance": 3.6518840599176103,
+                    "pearson correlation": 0.9227257955914245
+                },
+                "4": {
+                    "id": "27zu28YulIo7buGdzgN0bm",
+                    "cosine similarity": 0.9658918828729631,
+                    "euclidean distance": 0.5378290815987162,
+                    "manhattan distance": 1.2402035360532555,
+                    "mahalanobis distance": 3.3856543619448862,
+                    "pearson correlation": 0.9107996061900915
+                },
+                "5": {
+                    "id": "3SP4UoCeEfG8OUevkxbPlX",
+                    "cosine similarity": 0.9622067123299562,
+                    "euclidean distance": 0.5755381764898259,
+                    "manhattan distance": 1.4428478240836249,
+                    "mahalanobis distance": 4.057577215613185,
+                    "pearson correlation": 0.8952166785028005
+                }
+            }
+        },
+        "4VdQCcXDuzb6Ks1yLT9FnO": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.5833333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features in the table.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like a specific song.\nSupporting Evidence: The context consists of information about five songs that are similar to the requested song in terms of danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information allows for a comparison between the requested song and the similar songs provided, helping to determine if the user would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "2fl01uGwbppFEci7qij1lU",
+                    "cosine similarity": 0.9937878408220934,
+                    "euclidean distance": 0.24743442403576602,
+                    "manhattan distance": 0.5556014952621755,
+                    "mahalanobis distance": 1.6231348478362373,
+                    "pearson correlation": 0.9793831812366638
+                },
+                "2": {
+                    "id": "35tyQCmxn6cj2r7eAb4JXP",
+                    "cosine similarity": 0.9912320412563407,
+                    "euclidean distance": 0.28230184969032684,
+                    "manhattan distance": 0.737564654458708,
+                    "mahalanobis distance": 1.883172345247751,
+                    "pearson correlation": 0.9711565310605973
+                },
+                "3": {
+                    "id": "7Khbx8MgVTwIJe8YBi8tci",
+                    "cosine similarity": 0.9875833044879317,
+                    "euclidean distance": 0.3566156484399724,
+                    "manhattan distance": 0.9379326220702782,
+                    "mahalanobis distance": 1.4575994366439646,
+                    "pearson correlation": 0.9590080801354478
+                },
+                "4": {
+                    "id": "3VYNqg6APRVQasDJnwlJ6H",
+                    "cosine similarity": 0.9868295248937523,
+                    "euclidean distance": 0.34184812743785065,
+                    "manhattan distance": 0.8066117939981979,
+                    "mahalanobis distance": 1.5782472069335827,
+                    "pearson correlation": 0.9694305745726215
+                },
+                "5": {
+                    "id": "6Fn1k9ctMXsh5xrrMRaGQZ",
+                    "cosine similarity": 0.9843390963806653,
+                    "euclidean distance": 0.3725960656143489,
+                    "manhattan distance": 0.9397714415901787,
+                    "mahalanobis distance": 1.9532956526713061,
+                    "pearson correlation": 0.9474132696219397
+                }
+            }
+        },
+        "45oFq8ZKV9KDhzYb2Rh1y4": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context provides information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs presented as similar to the request. This information can help determine if the song aligns with your preferences based on these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "2ODYKhD4xlPViKP4LrNAwD",
+                    "cosine similarity": 0.9835950549912055,
+                    "euclidean distance": 0.3728074320940042,
+                    "manhattan distance": 0.9589035969816331,
+                    "mahalanobis distance": 2.097663640947658,
+                    "pearson correlation": 0.9608489921175383
+                },
+                "2": {
+                    "id": "6mkAhxAj1y5zvXWefkd9y7",
+                    "cosine similarity": 0.9824966394905091,
+                    "euclidean distance": 0.36994074386045905,
+                    "manhattan distance": 0.9573592763731299,
+                    "mahalanobis distance": 2.1313594475559916,
+                    "pearson correlation": 0.9585190648221713
+                },
+                "3": {
+                    "id": "2MCAs3ttHSuDm1RHL0rqTF",
+                    "cosine similarity": 0.9650889845522472,
+                    "euclidean distance": 0.5202900504744636,
+                    "manhattan distance": 1.0823691276949354,
+                    "mahalanobis distance": 2.599670970802471,
+                    "pearson correlation": 0.9204891478678093
+                },
+                "4": {
+                    "id": "3DWDcsDoXRIFynCREIkibM",
+                    "cosine similarity": 0.9630636534756266,
+                    "euclidean distance": 0.5065350324762729,
+                    "manhattan distance": 1.358687782085676,
+                    "mahalanobis distance": 2.7970542071030757,
+                    "pearson correlation": 0.9109152282681525
+                },
+                "5": {
+                    "id": "4VdQCcXDuzb6Ks1yLT9FnO",
+                    "cosine similarity": 0.9602010911643531,
+                    "euclidean distance": 0.6082567887449916,
+                    "manhattan distance": 1.4853360002151252,
+                    "mahalanobis distance": 3.609277000868125,
+                    "pearson correlation": 0.9109308758969215
+                }
+            }
+        },
+        "3DZnc4lcqJF8FJmRbjrmA0": {
+            "label": "dislike",
+            "response": "like",
+            "correctness": 0,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided song features and respond with only 'like' or 'dislike'.\nSupporting Evidence: The response provided is 'like', indicating that the user would enjoy the song based on the given features of the song.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question of whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs, including their attributes such as danceability, energy, key, loudness, and more. Each song is labeled either \"like\" or \"dislike\" based on its similarity to the user's request. This information allows for a comparison between the user's preferences and the attributes of the songs provided.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "5T5mtNBCvVQ01WPr3MRzUY",
+                    "cosine similarity": 0.973615778990871,
+                    "euclidean distance": 0.4086371607229139,
+                    "manhattan distance": 1.1144462371022943,
+                    "mahalanobis distance": 1.9489466408912524,
+                    "pearson correlation": 0.9310801000638219
+                },
+                "2": {
+                    "id": "5mA2JwcgMq4FIIBKKKLsuW",
+                    "cosine similarity": 0.970736023110539,
+                    "euclidean distance": 0.43506807204464953,
+                    "manhattan distance": 1.0732010771351457,
+                    "mahalanobis distance": 2.255191627736778,
+                    "pearson correlation": 0.930892927794176
+                },
+                "3": {
+                    "id": "2jBleFNl3YK8lyJc1OvxXt",
+                    "cosine similarity": 0.9677218361003296,
+                    "euclidean distance": 0.4639133820171845,
+                    "manhattan distance": 1.2016982001677183,
+                    "mahalanobis distance": 2.694885091120132,
+                    "pearson correlation": 0.917097612212633
+                },
+                "4": {
+                    "id": "5zWZ9iNevP0397xB3jWV2z",
+                    "cosine similarity": 0.9627248803834285,
+                    "euclidean distance": 0.5269363279683076,
+                    "manhattan distance": 1.224211147687991,
+                    "mahalanobis distance": 3.0006896140372774,
+                    "pearson correlation": 0.9068884132604692
+                },
+                "5": {
+                    "id": "1s3XtkdfT3obSCbQVWtvX9",
+                    "cosine similarity": 0.961313072481539,
+                    "euclidean distance": 0.5326740343530295,
+                    "manhattan distance": 1.1367413665588573,
+                    "mahalanobis distance": 2.0361010876000067,
+                    "pearson correlation": 0.8971864932519734
+                }
+            }
+        },
+        "216QmkNpU3hIjeZtGocb9B": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.75,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs that are similar to the requested song in terms of danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information allows for a comparison between the requested song and the similar songs to determine if the user would like it based on their preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3FVdWR0C2QAqXxhW1al2fT",
+                    "cosine similarity": 0.9949791045346661,
+                    "euclidean distance": 0.23811242291586254,
+                    "manhattan distance": 0.6092730107076039,
+                    "mahalanobis distance": 1.6039332156792607,
+                    "pearson correlation": 0.9819428441743451
+                },
+                "2": {
+                    "id": "5VyfAfp2Yt3qaeuvq55ll3",
+                    "cosine similarity": 0.9948103591163291,
+                    "euclidean distance": 0.23633683176407677,
+                    "manhattan distance": 0.6577159438837454,
+                    "mahalanobis distance": 1.5366449278385177,
+                    "pearson correlation": 0.9804135969203722
+                },
+                "3": {
+                    "id": "3zCWbPJVp1egCgyoMYAsDN",
+                    "cosine similarity": 0.9934782761035607,
+                    "euclidean distance": 0.27611670018963635,
+                    "manhattan distance": 0.7012567805747867,
+                    "mahalanobis distance": 1.3359576043402086,
+                    "pearson correlation": 0.9764615070207768
+                },
+                "4": {
+                    "id": "4uq48sO2YTTJ0l74R9tOdo",
+                    "cosine similarity": 0.99278295679209,
+                    "euclidean distance": 0.2831274322986585,
+                    "manhattan distance": 0.7131725026202864,
+                    "mahalanobis distance": 1.7812917350199406,
+                    "pearson correlation": 0.9848565259035812
+                },
+                "5": {
+                    "id": "3eWHY75nDgte70hh5yf4UW",
+                    "cosine similarity": 0.9910752352155675,
+                    "euclidean distance": 0.3070506463664784,
+                    "manhattan distance": 0.8003730413528802,
+                    "mahalanobis distance": 2.2086787817663076,
+                    "pearson correlation": 0.9718603755385334
+                }
+            }
+        },
+        "4zHabeonyLGTgnR9R5RY3X": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The context provided should help determine whether the user would like the song based on its similarity to other songs and their attributes.\nSupporting Evidence: The context includes information about the five most similar songs to the user's request, detailing their attributes such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information allows for a comparison between the user's preferences and the attributes of the recommended songs.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "59wSo3BVsBDZWMRKLwTpdv",
+                    "cosine similarity": 0.9607936884645027,
+                    "euclidean distance": 0.6813398801976381,
+                    "manhattan distance": 1.4724171703013902,
+                    "mahalanobis distance": 3.8600465111394358,
+                    "pearson correlation": 0.876208351568
+                },
+                "2": {
+                    "id": "6mkAhxAj1y5zvXWefkd9y7",
+                    "cosine similarity": 0.951895963810282,
+                    "euclidean distance": 0.6026637151167912,
+                    "manhattan distance": 1.5617633874911157,
+                    "mahalanobis distance": 3.3722740233417317,
+                    "pearson correlation": 0.8702091160772809
+                },
+                "3": {
+                    "id": "4QMaRC93F0aFx3S648CLyh",
+                    "cosine similarity": 0.950150399834776,
+                    "euclidean distance": 0.5962897993157652,
+                    "manhattan distance": 1.3723204445912016,
+                    "mahalanobis distance": 3.5218474825107635,
+                    "pearson correlation": 0.8602813366816647
+                },
+                "4": {
+                    "id": "0i8JFpqe9cKwnrcvoNgl1L",
+                    "cosine similarity": 0.9411912661249137,
+                    "euclidean distance": 0.640829433609697,
+                    "manhattan distance": 1.6596299648045618,
+                    "mahalanobis distance": 3.493715865316207,
+                    "pearson correlation": 0.8359891222459988
+                },
+                "5": {
+                    "id": "35tyQCmxn6cj2r7eAb4JXP",
+                    "cosine similarity": 0.9410672941977662,
+                    "euclidean distance": 0.7365469469911761,
+                    "manhattan distance": 1.9989933158640967,
+                    "mahalanobis distance": 3.851416728996883,
+                    "pearson correlation": 0.8057183268975426
+                }
+            }
+        },
+        "0HPmWGyYJ0xP1DYUWk8Fwm": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.888888888888889,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"dislike\" is directly answering the prompt by evaluating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: Evaluate the relevance of the provided context to determine whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. The context also includes the labels indicating whether the songs are liked or disliked.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "7tLevkJnFLOMtOOUmhznQa",
+                    "cosine similarity": 0.9170128654820905,
+                    "euclidean distance": 0.8813832768401384,
+                    "manhattan distance": 1.7814848572238708,
+                    "mahalanobis distance": 7.171040432891597,
+                    "pearson correlation": 0.7854482908772142
+                },
+                "2": {
+                    "id": "4YWg4PxJzMn84j7Fo32W4M",
+                    "cosine similarity": 0.9103020880947919,
+                    "euclidean distance": 0.92360113465215,
+                    "manhattan distance": 1.875080865170086,
+                    "mahalanobis distance": 7.653719477842961,
+                    "pearson correlation": 0.7719488821508812
+                },
+                "3": {
+                    "id": "1SEE3lvWDlSYVEySrrAfMs",
+                    "cosine similarity": 0.9065115088142643,
+                    "euclidean distance": 0.9570569993485449,
+                    "manhattan distance": 2.180747315564388,
+                    "mahalanobis distance": 7.786907324710388,
+                    "pearson correlation": 0.7596224026023491
+                },
+                "4": {
+                    "id": "4pFC6tuWErxbO61oFFq3BQ",
+                    "cosine similarity": 0.8943574194759231,
+                    "euclidean distance": 0.9953607194679454,
+                    "manhattan distance": 2.2114344931087464,
+                    "mahalanobis distance": 7.8492368946842195,
+                    "pearson correlation": 0.72545747388183
+                },
+                "5": {
+                    "id": "67gauLFb25vQYR7qMhNnTT",
+                    "cosine similarity": 0.8742288727503529,
+                    "euclidean distance": 1.0855709680317334,
+                    "manhattan distance": 2.7693415875806044,
+                    "mahalanobis distance": 6.774196533425779,
+                    "pearson correlation": 0.6743263181375415
+                }
+            }
+        },
+        "75bVc27bDSOAhMAL38cXpV": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is relevant to the entire prompt as it directly answers whether you would like the song based on the provided music features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs that are similar to the requested song in terms of danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. Each song is labeled as 'like,' indicating that they are similar to the requested song and liked by others.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "7Khbx8MgVTwIJe8YBi8tci",
+                    "cosine similarity": 0.9515852499688608,
+                    "euclidean distance": 0.6482737783361204,
+                    "manhattan distance": 1.7776114603163458,
+                    "mahalanobis distance": 4.38521976423537,
+                    "pearson correlation": 0.8282871140509215
+                },
+                "2": {
+                    "id": "1rssdvnvf0DZ4s2jdB3DCT",
+                    "cosine similarity": 0.948338993410256,
+                    "euclidean distance": 0.6674433404752333,
+                    "manhattan distance": 1.5175052611490485,
+                    "mahalanobis distance": 3.431991100189097,
+                    "pearson correlation": 0.8678284686754508
+                },
+                "3": {
+                    "id": "1LWunyq4LMbOGjPD128dJy",
+                    "cosine similarity": 0.9413643655774392,
+                    "euclidean distance": 0.7526442197753667,
+                    "manhattan distance": 2.0173423512490634,
+                    "mahalanobis distance": 3.4216061169127565,
+                    "pearson correlation": 0.7994859267701895
+                },
+                "4": {
+                    "id": "59wSo3BVsBDZWMRKLwTpdv",
+                    "cosine similarity": 0.9392999470084407,
+                    "euclidean distance": 0.7674795516736317,
+                    "manhattan distance": 2.117730933035074,
+                    "mahalanobis distance": 4.971308406640338,
+                    "pearson correlation": 0.8001137299299214
+                },
+                "5": {
+                    "id": "57RtLWT7IpugV0yi5bsxJk",
+                    "cosine similarity": 0.936607244324698,
+                    "euclidean distance": 0.7371753942165863,
+                    "manhattan distance": 1.9408791101057592,
+                    "mahalanobis distance": 3.9535432703622972,
+                    "pearson correlation": 0.7993870851141375
+                }
+            }
+        },
+        "0HkoTr9t0f6MeqGoUS3E3e": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context provides information about the characteristics of songs similar to the requested one, including danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information can help the user assess if they would like the song based on their preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "0V5c3isfSfyl7zQDtV9fAp",
+                    "cosine similarity": 0.9887091426027215,
+                    "euclidean distance": 0.32132348494749313,
+                    "manhattan distance": 0.5996823584854087,
+                    "mahalanobis distance": 1.7963050288758802,
+                    "pearson correlation": 0.9663301905260643
+                },
+                "2": {
+                    "id": "3UKwm5G898I1BvYt7uU4t0",
+                    "cosine similarity": 0.9811381397854015,
+                    "euclidean distance": 0.41871891460395694,
+                    "manhattan distance": 1.0261044681249072,
+                    "mahalanobis distance": 3.055142354070275,
+                    "pearson correlation": 0.9451798020186493
+                },
+                "3": {
+                    "id": "7Khbx8MgVTwIJe8YBi8tci",
+                    "cosine similarity": 0.9789651500910211,
+                    "euclidean distance": 0.44921269966085625,
+                    "manhattan distance": 1.0207930466065958,
+                    "mahalanobis distance": 1.9227236218234691,
+                    "pearson correlation": 0.9273222375372361
+                },
+                "4": {
+                    "id": "59wSo3BVsBDZWMRKLwTpdv",
+                    "cosine similarity": 0.9666400731350918,
+                    "euclidean distance": 0.5744407138081576,
+                    "manhattan distance": 1.2506294806762803,
+                    "mahalanobis distance": 3.2760163165481395,
+                    "pearson correlation": 0.8912509840743582
+                },
+                "5": {
+                    "id": "5UcJfhiAQOqC5MtpwsM20t",
+                    "cosine similarity": 0.9649815319982397,
+                    "euclidean distance": 0.567132463067003,
+                    "manhattan distance": 1.4961761386582282,
+                    "mahalanobis distance": 3.1924694847989152,
+                    "pearson correlation": 0.9068860137718054
+                }
+            }
+        },
+        "0De4Cl3YncrwWkqJiJfA7k": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.6666666666666666,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating that you would like the song based on the provided features in the table.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to the question of evaluating whether the user would like the song.\nSupporting Evidence: The context provided includes information about the danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature of the songs that are similar to the requested one. This information can help the user determine if they would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3qjDXaWCalJ9ZzaHBG4j3V",
+                    "cosine similarity": 0.9934159004875808,
+                    "euclidean distance": 0.3255024477069724,
+                    "manhattan distance": 0.7201614430784783,
+                    "mahalanobis distance": 1.265528997835889,
+                    "pearson correlation": 0.9687203113354398
+                },
+                "2": {
+                    "id": "7gi31ULI4vzNFUw8pokrfm",
+                    "cosine similarity": 0.9880468124353426,
+                    "euclidean distance": 0.4008614210290273,
+                    "manhattan distance": 0.9218179944762943,
+                    "mahalanobis distance": 2.0579004869697726,
+                    "pearson correlation": 0.9581682748142626
+                },
+                "3": {
+                    "id": "3Sd7FiZtfsVHKEvjshCsHC",
+                    "cosine similarity": 0.9836941938049288,
+                    "euclidean distance": 0.4529430430287173,
+                    "manhattan distance": 1.2015511452055425,
+                    "mahalanobis distance": 2.1994998471294807,
+                    "pearson correlation": 0.9329617053146366
+                },
+                "4": {
+                    "id": "0O4U6fVE1TwWYhM4fKr1Fh",
+                    "cosine similarity": 0.9827128654193913,
+                    "euclidean distance": 0.47173966513781734,
+                    "manhattan distance": 1.2823230339567737,
+                    "mahalanobis distance": 2.222566511389633,
+                    "pearson correlation": 0.91857508609013
+                },
+                "5": {
+                    "id": "3wG9ykVbw7fhfLsoZGPT1E",
+                    "cosine similarity": 0.9824506836473623,
+                    "euclidean distance": 0.4901084078006987,
+                    "manhattan distance": 1.0606863079272126,
+                    "mahalanobis distance": 2.2746827305202775,
+                    "pearson correlation": 0.9147933157228767
+                }
+            }
+        },
+        "4Ahphc0UzRSoMpJRHgnGQK": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and provide a clear 'like' or 'dislike' label.\nSupporting Evidence: The response 'like' indicates that the user would enjoy the song based on the features provided in the table. The song has high energy (0.97), high loudness (0.98), low acousticness (0.01), and high tempo (0.87), which are characteristics often associated with songs that are upbeat and energetic, likely to be enjoyed by listeners who like lively music.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The evaluation is based on the relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context consists of information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. Each song is labeled either \"like\" or \"dislike\" based on its similarity to the requested song. This information allows for a comparison between the user's preferences and the characteristics of the similar songs provided.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "0V5c3isfSfyl7zQDtV9fAp",
+                    "cosine similarity": 0.9683391157581043,
+                    "euclidean distance": 0.5472503044204056,
+                    "manhattan distance": 1.3803254347552283,
+                    "mahalanobis distance": 3.1563441958971996,
+                    "pearson correlation": 0.9305683657375112
+                },
+                "2": {
+                    "id": "6V3SNkvi4BnfmZU0j7s9TQ",
+                    "cosine similarity": 0.9649692197367026,
+                    "euclidean distance": 0.5763561645415498,
+                    "manhattan distance": 1.1728354052699403,
+                    "mahalanobis distance": 3.032834576671924,
+                    "pearson correlation": 0.9182271511138456
+                },
+                "3": {
+                    "id": "4QMaRC93F0aFx3S648CLyh",
+                    "cosine similarity": 0.9597910812110526,
+                    "euclidean distance": 0.6399510746746695,
+                    "manhattan distance": 1.2688340384153225,
+                    "mahalanobis distance": 2.507093348021455,
+                    "pearson correlation": 0.9044641119406032
+                },
+                "4": {
+                    "id": "0PieJw6d3jyki3JTxgZhIr",
+                    "cosine similarity": 0.9558479497716332,
+                    "euclidean distance": 0.6695150063329007,
+                    "manhattan distance": 1.5356652150436152,
+                    "mahalanobis distance": 2.6686480719345167,
+                    "pearson correlation": 0.8946662134834583
+                },
+                "5": {
+                    "id": "59wSo3BVsBDZWMRKLwTpdv",
+                    "cosine similarity": 0.9549647458302236,
+                    "euclidean distance": 0.6651077064760902,
+                    "manhattan distance": 1.4916748288786323,
+                    "mahalanobis distance": 4.651858000834517,
+                    "pearson correlation": 0.8983081914266489
+                }
+            }
+        },
+        "5ycOd8aYjGCIrDfLNKqmKW": {
+            "label": "dislike",
+            "response": "dislike",
+            "correctness": 1,
+            "groundedness": 0.5,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response should evaluate whether the user would like the song based on the provided features and give a clear 'like' or 'dislike' response.\nSupporting Evidence: The response 'dislike' directly answers the evaluation prompt by indicating that the user would not like the song based on the features provided in the table.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context provides information about the most similar songs to the request, including their attributes such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, time signature, and the label indicating whether they are liked or disliked. This information can help determine if you would like the song based on similarities in musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3SP4UoCeEfG8OUevkxbPlX",
+                    "cosine similarity": 0.9765202071494041,
+                    "euclidean distance": 0.45488378739468177,
+                    "manhattan distance": 1.2754347203127314,
+                    "mahalanobis distance": 3.325870732411659,
+                    "pearson correlation": 0.9346496721989938
+                },
+                "2": {
+                    "id": "107S1KOprUaRQqfI9nugxv",
+                    "cosine similarity": 0.9738585478347928,
+                    "euclidean distance": 0.46301838173630344,
+                    "manhattan distance": 1.1044725179114308,
+                    "mahalanobis distance": 3.4614511456567243,
+                    "pearson correlation": 0.9323034403989836
+                },
+                "3": {
+                    "id": "6gP7mrmL9EsFS3sMpk3Ig3",
+                    "cosine similarity": 0.9728014788524486,
+                    "euclidean distance": 0.4796463021864244,
+                    "manhattan distance": 1.0586878889914424,
+                    "mahalanobis distance": 2.765806055879359,
+                    "pearson correlation": 0.9213367376040225
+                },
+                "4": {
+                    "id": "6m5EVmAlKhJwbQCT3xN5Kt",
+                    "cosine similarity": 0.9457083420403297,
+                    "euclidean distance": 0.6768135609633092,
+                    "manhattan distance": 1.7061600905705723,
+                    "mahalanobis distance": 3.736624336795495,
+                    "pearson correlation": 0.8482704743481109
+                },
+                "5": {
+                    "id": "3bQoMbPYOvvseHaSOWAQ3Q",
+                    "cosine similarity": 0.9381220570812004,
+                    "euclidean distance": 0.7110069414960155,
+                    "manhattan distance": 1.3190571909851716,
+                    "mahalanobis distance": 4.2476594312573495,
+                    "pearson correlation": 0.8375973912023674
+                }
+            }
+        },
+        "3F1vWVOvzgKx7r5ZRp19gu": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features in the table.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether the user would like the song.\nSupporting Evidence: The context provides information about five songs that are similar to the requested song in terms of various musical features such as danceability, energy, key, loudness, and more. The context includes the names of the songs, their musical features, and whether they are liked or disliked. This information can help the user determine if they would like the song based on their preferences for these musical features.\n\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "6u1rhQAvxkWLeuqUC3iJD0",
+                    "cosine similarity": 0.9773589574834181,
+                    "euclidean distance": 0.46404573128094384,
+                    "manhattan distance": 1.0467162437803093,
+                    "mahalanobis distance": 2.769988709262238,
+                    "pearson correlation": 0.9373804723760852
+                },
+                "2": {
+                    "id": "6KigD0mlF4VGDYiSEzAyYw",
+                    "cosine similarity": 0.973015077525706,
+                    "euclidean distance": 0.5513771245002563,
+                    "manhattan distance": 1.324815842600691,
+                    "mahalanobis distance": 2.284840190648624,
+                    "pearson correlation": 0.9236125653451975
+                },
+                "3": {
+                    "id": "0E2IUIi4k7klypQqmEcrkt",
+                    "cosine similarity": 0.9707574289878358,
+                    "euclidean distance": 0.49625770493248716,
+                    "manhattan distance": 1.1369633907022825,
+                    "mahalanobis distance": 2.531537159711064,
+                    "pearson correlation": 0.9171646528869322
+                },
+                "4": {
+                    "id": "295SxdR1DqunCNwd0U767w",
+                    "cosine similarity": 0.9685938628567328,
+                    "euclidean distance": 0.49602909386893473,
+                    "manhattan distance": 1.204825935984546,
+                    "mahalanobis distance": 3.330959660939063,
+                    "pearson correlation": 0.9109421821155013
+                },
+                "5": {
+                    "id": "0vfB1HhL36tfV8q6LLKtgo",
+                    "cosine similarity": 0.9676123967710336,
+                    "euclidean distance": 0.5047708536619598,
+                    "manhattan distance": 1.2474319021561953,
+                    "mahalanobis distance": 2.837268836667846,
+                    "pearson correlation": 0.9079382181987741
+                }
+            }
+        },
+        "0hkXsgdRk1TAOuOEpzznkI": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features in the table.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to determining whether the user would like the song.\nSupporting Evidence: The context provides information about the most similar songs to the user's request, including their attributes such as danceability, energy, tempo, and more. This information can help the user determine if they would like the song based on their preferences for these musical features.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "1O4qKxSYi8Hs2nQEXrISZ4",
+                    "cosine similarity": 0.9774071442340698,
+                    "euclidean distance": 0.5183546669972601,
+                    "manhattan distance": 1.0929794882814907,
+                    "mahalanobis distance": 3.3880621015049663,
+                    "pearson correlation": 0.9312768156405721
+                },
+                "2": {
+                    "id": "0rs6jxe3647mGSc7l18Cq8",
+                    "cosine similarity": 0.9742813332398005,
+                    "euclidean distance": 0.4390188230673346,
+                    "manhattan distance": 1.130479456608937,
+                    "mahalanobis distance": 1.605465247970335,
+                    "pearson correlation": 0.9254277489959392
+                },
+                "3": {
+                    "id": "4gohbLz14XeqPbH5uxbZBz",
+                    "cosine similarity": 0.968321336292687,
+                    "euclidean distance": 0.49421947624390455,
+                    "manhattan distance": 1.0475749963687329,
+                    "mahalanobis distance": 2.8478816749213762,
+                    "pearson correlation": 0.907555920019008
+                },
+                "4": {
+                    "id": "6Fn1k9ctMXsh5xrrMRaGQZ",
+                    "cosine similarity": 0.9664163795018718,
+                    "euclidean distance": 0.5458277620451127,
+                    "manhattan distance": 1.2619095647907554,
+                    "mahalanobis distance": 1.962232491669139,
+                    "pearson correlation": 0.894794233671538
+                },
+                "5": {
+                    "id": "2fl01uGwbppFEci7qij1lU",
+                    "cosine similarity": 0.9634564384647958,
+                    "euclidean distance": 0.542261168462934,
+                    "manhattan distance": 1.4335912247907556,
+                    "mahalanobis distance": 2.1796395317002792,
+                    "pearson correlation": 0.8855998100102197
+                }
+            }
+        },
+        "4W1RGS4ncIY1yrz38rysN3": {
+            "label": "like",
+            "response": "like",
+            "correctness": 1,
+            "groundedness": 0.8333333333333334,
+            "relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The response must be relevant to the entire prompt to get a maximum score of 3.\nSupporting Evidence: The response \"like\" is directly answering the prompt by indicating whether you would like the song based on the provided features.\n\nScore: 3"
+                }
+            },
+            "context_relevance": {
+                "score": 1.0,
+                "reasons": {
+                    "reason": "Criteria: The relevance of the provided context to evaluating whether you would like the song.\nSupporting Evidence: The context consists of information about the most similar songs to the requested one, including their danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. This information directly relates to the features of the songs, which can influence your preference for them.\nScore: 3"
+                }
+            },
+            "context": {
+                "1": {
+                    "id": "3Wy1HGyh2hnHMF0xS2tJqH",
+                    "cosine similarity": 0.9476489343991223,
+                    "euclidean distance": 0.6966331552788628,
+                    "manhattan distance": 2.0438658933861693,
+                    "mahalanobis distance": 4.723489779674955,
+                    "pearson correlation": 0.8331881738782652
+                },
+                "2": {
+                    "id": "2o7n4nINXpjbo9VpsHZ8Ik",
+                    "cosine similarity": 0.9466809788780381,
+                    "euclidean distance": 0.7501438841859259,
+                    "manhattan distance": 2.0409611846842317,
+                    "mahalanobis distance": 4.887714732506018,
+                    "pearson correlation": 0.8231631420760592
+                },
+                "3": {
+                    "id": "3wG9ykVbw7fhfLsoZGPT1E",
+                    "cosine similarity": 0.946568170614369,
+                    "euclidean distance": 0.8912929844782933,
+                    "manhattan distance": 2.3304025397622317,
+                    "mahalanobis distance": 5.777555341383566,
+                    "pearson correlation": 0.8282876764535247
+                },
+                "4": {
+                    "id": "6dS1JCvtMJQ1O9bseVLyJz",
+                    "cosine similarity": 0.9462987271298566,
+                    "euclidean distance": 0.7386956021041768,
+                    "manhattan distance": 1.7656333573787626,
+                    "mahalanobis distance": 3.7033765276881305,
+                    "pearson correlation": 0.8285276943185444
+                },
+                "5": {
+                    "id": "5JIeLpAbKtpFrCSWeOAiwo",
+                    "cosine similarity": 0.9356290637908902,
+                    "euclidean distance": 0.8408461382157761,
+                    "manhattan distance": 2.2967095804212065,
+                    "mahalanobis distance": 4.5052797406836875,
+                    "pearson correlation": 0.7846926722076139
+                }
+            }
+        }
+    }
+}
