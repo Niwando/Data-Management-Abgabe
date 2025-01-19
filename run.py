@@ -2,8 +2,10 @@ import os
 import time
 import json
 import argparse
+import textwrap
 from tqdm import tqdm
 import pandas as pd
+from tabulate import tabulate
 from trulens.providers.openai import OpenAI
 
 from src.utils.connect_db import connect_to_db
@@ -133,8 +135,39 @@ def evaluation_from_user(stage, input, similarity_search_type, top_k, model_name
         print_similarity(similar_tracks=similar_tracks, metrics_results=similarity_results)
 
     if stage == "generation" or stage == "all":
+
+        rag = RAG(model_name=model_name, limit=top_k, metric=similarity_search_type)
+        provider = OpenAI(model_engine=eval_model)
         
-        evaluation = evaluate_trulens(input_vector=input_vector, rag=rag, tru_rag=tru_rag)
+        evaluation = evaluate_trulens(provider=provider, input_vector=input_vector, rag=rag, ground_truth=None)
+        # Textwrapping für die langen Begründungen
+        def wrap_text(text, width=50):
+            return "\n".join(textwrap.wrap(text, width))
+
+        # Tabelle vorbereiten
+        headers = [
+            "Response",
+            "Groundedness",
+            "Relevance Score",
+            "Relevance Reason",
+            "Context Relevance Score",
+            "Context Relevance Reason",
+        ]
+
+        rows = [
+            [
+                evaluation["response"],
+                round(evaluation["groundedness"], 2),
+                evaluation["relevance"]["score"],
+                wrap_text(evaluation["relevance"]["reasons"]["reason"]),
+                evaluation["context_relevance"]["score"],
+                wrap_text(evaluation["context_relevance"]["reasons"]["reason"]),
+            ]
+        ]
+
+        # Tabelle erstellen und ausgeben
+        table = tabulate(rows, headers=headers, tablefmt="grid")
+        print(table)
 
 
 def main():

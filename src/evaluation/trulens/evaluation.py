@@ -17,10 +17,15 @@ def evaluate_trulens(provider, input_vector, rag, ground_truth):
     relevance = provider.relevance_with_cot_reasons(query, response)
     context_relevance = provider.context_relevance_with_cot_reasons(query, context)
 
+    if ground_truth != None:
+        correctness = 1 if response==ground_truth else 0
+    else:
+        correctness = None
+
     return {
         "label": ground_truth,
         "response" : response,
-        "correctness" : 1 if response==ground_truth else 0,
+        "correctness" : correctness,
         "groundedness": np.mean(groundedness),
         "relevance": {
             "score": relevance[0],

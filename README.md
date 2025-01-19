@@ -158,6 +158,13 @@ Evaluieren Sie RAG basierend auf einem vorhandenen Datensatz:
 ```bash
 python run.py eval-data --data-size <Datengröße> --similarity-search <Methode> --top-k <Anzahl> --model <Generierungsmodell> --eval-model <Evaluierungsmodell>
 ```
+**Parameterbeschreibung**
+- `--data-size <Datengröße>`: Gibt an, welche Menge der Daten für die Evaluierung verwendet werden soll.
+- `--similarity-search <Suchmetrik>`: Wählen Sie die Methode zur Ähnlichkeitssuche.
+- `--top-k <Anzahl der Ergebnisse>`: Legt fest, wie viele Top-Ergebnisse aus der Ähnlichkeitssuche zurückgegeben werden sollen.
+- `--model <Generierungsmodell>`: Das Sprachmodell, das für die Generierung verwendet wird.
+- `--eval-model <Evaluierungsmodell>`: Das Sprachmodell, das für die Evaluierung verwendet wird.
+
 Beispiel:
 ```bash
 python run.py eval-data --data-size 50 --similarity-search cosine --top-k 5 --model "gpt-3.5-turbo" --eval-model "gpt-3.5-turbo"
@@ -167,7 +174,20 @@ python run.py eval-data --data-size 50 --similarity-search cosine --top-k 5 --mo
 
 Erstellen Sie individuelle Anfragen und testen Sie RAG mit benutzerdefinierten Song-Eigenschaften:
 ```bash
-python run.py eval-user --model <Generierungsmodell>
+python run.py eval-user --stage <Evaluierungsstufe> --similarity-search <Suchmetrik> --top-k <Anzahl der Ergebnisse> --model <Generierungsmodell> --eval-model <Evaluierungsmodell> --input "<Eigenschaftsvektor>"
+```
+**Parameterbeschreibung**
+- `--stage <Evaluierungsstufe>`: Gibt die Evaluierungsstufe an.
+- `--similarity-search <Suchmetrik>`: Wählen Sie die Methode zur Ähnlichkeitssuche.
+- `--top-k <Anzahl der Ergebnisse>`: Legt fest, wie viele Top-Ergebnisse aus der Ähnlichkeitssuche zurückgegeben werden sollen.
+- `--model <Generierungsmodell>`: Das Sprachmodell, das für die Generierung verwendet wird.
+- `--eval-model <Evaluierungsmodell>`: Das Sprachmodell, das für die Evaluierung verwendet wird.
+- `--input "<Eigenschaftsvektor>"`: Ein benutzerdefinierter Vektor, der die Eigenschaften des zu bewertenden Songs repräsentiert. 
+
+
+Beispiel:
+```bash
+python run.py eval-user --stage all --similarity-search cosine --top-k 5 --model "gpt-3.5-turbo" --eval-model "gpt-3.5-turbo" --input "[0.7585784313725491,0.841988727858293,0.5454545454545454,0.9371070757670632,1,0.5255759468957438,0.0871328801560648,0.0,0.2848808134689115,0.813697470096327,0.9335252158678514,0.05847130672479715,0.75]"
 ```
 
 ---
